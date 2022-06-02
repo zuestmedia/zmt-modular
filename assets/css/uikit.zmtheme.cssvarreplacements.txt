@@ -1,0 +1,33 @@
+Replacements
+------------
+
+1) first compile zmtheme less to ltr and rtl!
+2) search & replace color_text_inverse!
+
+Beispiele
+-----------------------
+
+background / color: #ffffff !important;       --> ": #ffffff"             --> rgba(var, 1)
+
+rgba(255, 255, 255, 0.5)                      --> "255, 255, 255"         --> rgba(var, 0.5)
+
+
+Vorlage & Reihenfolge wenn color_text_inverse == #ffffff
+----------------------------------------------------------
+
+  1.    "  255, 255, 255  "    ---->      "  var(--color_text_inverse, 255, 255, 255)  "
+
+  2.    "  : #ffffff  "    ---->      "  : rgba( var(--color_text_inverse, 255, 255, 255), 1 )  "
+
+
+Finaly in CSS  ===> rgba( var(--color_text_inverse, 255, 255, 255), 1 );
+-----------------------------------------------------------
+
+
+
+NEW (to update uikit css & js)
+--> yarn add uikit (to new folder) / yarn (1x ausführen!)
+--> custom folder mit less files in main folder einfügen
+--> images folder in main folder kopieren where custom folder, sonst in css keine svg data-strings sondern svg links!
+--> compile alles
+--> variablen ersetzen für weiss, siehe readme in assets/css

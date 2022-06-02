@@ -1,0 +1,399 @@
+/*
+Theme Name: Modular
+Theme URI: https://zmtheme.com/
+Author: zuestmedia
+Author URI: https://zuestmedia.ch/
+Text Domain: zmtheme
+Version: 0.9.0
+Domain Path: /languages
+Tested up to: 6.0
+Requires at least: 4.7
+Requires PHP: 7.0
+Description: The ZMT Modular Premium WordPress Theme is a completly customizable multi-purpose-theme created with ZMTheme-Framework.
+Tags: blog, custom-logo, e-commerce, rtl-language-support, grid-layout, one-column, two-columns, custom-background, custom-colors, custom-header, custom-menu, featured-image-header, featured-images, flexible-header, full-width-template, sticky-post, theme-options, threaded-comments, translation-ready, accessibility-ready, wide-blocks, block-styles, footer-widgets, portfolio, left-sidebar, right-sidebar
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+
+	0. WordPress Core
+	1. WP Blocks alignfull / alignwide
+  2. wp-blocks margin
+  3. wp-block optimizations
+  4. offcanvas_toggle rotation
+  5. uk section overlap
+  6. box-shadow-bottom
+  7. Background: Gradient & SkewY (Diagonal) with css-vars!!
+  8. Must Use: display settings hide on small medium large
+  9. Must Use: width 100% on viewport-height & vertical align via flex
+
+----------------------------------------------------------------------------- */
+/* 0. WordPress Core
+-------------------------------------------------------------- */
+.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.aligncenter,
+div.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+
+.alignright {
+    float:right;
+    margin: 5px 0 20px 20px;
+}
+
+.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignright {
+    float: right;
+    margin: 5px 0 20px 20px;
+}
+
+a img.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wp-caption, .gallery-caption {
+    background: #fff;
+    border: 1px solid #f0f0f0;
+    max-width: 96%; /* Image does not overflow the content area */
+    padding: 5px 3px 10px;
+    text-align: center;
+}
+
+.wp-caption.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignleft {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignright {
+    margin: 5px 0 20px 20px;
+}
+
+.wp-caption img {
+    border: 0 none;
+    height: auto;
+    margin: 0;
+    max-width: 98.5%;
+    padding: 0;
+    width: auto;
+}
+
+.wp-caption p.wp-caption-text {
+    font-size: 11px;
+    line-height: 17px;
+    margin: 0;
+    padding: 0 4px 5px;
+}
+
+/* Text meant only for screen readers. */
+.screen-reader-text {
+	border: 0;
+	clip: rect(1px, 1px, 1px, 1px);
+	clip-path: inset(50%);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute !important;
+	width: 1px;
+	word-wrap: normal !important; /* Many screen reader and browser combinations announce broken words as they would appear visually. */
+}
+
+.screen-reader-text:focus {
+	background-color: #eee;
+	clip: auto !important;
+	clip-path: none;
+	color: #444;
+	display: block;
+	font-size: 1em;
+	height: auto;
+	left: 5px;
+	line-height: normal;
+	padding: 15px 23px 14px;
+	text-decoration: none;
+	top: 5px;
+	width: auto;
+	z-index: 100000;
+	/* Above WP toolbar. */
+}
+
+.sticky{
+  /*adds additional style to sticky articles --> solve via post_class filter! */
+}
+
+#cancel-comment-reply-link{
+  margin-left:10px;
+  font-size:1rem;
+}
+
+/* -------------------------------------------------------------------------- */
+/*	1. WP Blocks alignfull / alignwide
+    -- braucht variable von main container width
+    -- these css-vars are built via js through zmtheme.js functions
+    -- zm-wp-block-width is located in configArticleContainer
+/* -------------------------------------------------------------------------- */
+
+.alignfull, .alignwide {
+  /*margin: 0 calc(50% - (50vw - var(--scrollbar-width)/2));/*better below, so margins will be kept in editor and frontend*/
+  margin-left: calc(50% - (50vw - var(--scrollbar-width)/2));
+  margin-right: calc(50% - (50vw - var(--scrollbar-width)/2));
+  max-width: calc(100vw - var(--scrollbar-width));
+  width: calc(100vw - var(--scrollbar-width));
+  /*padding-left:0 !important;
+  padding-right:0 !important;*/
+}
+
+@media (min-width: 1480px) {
+  .alignwide {
+    /*margin: 0 calc(( var(--zm-wp-block-width) - 80vw)/2);/*better below, so margins will be kept in editor and frontend*/
+    margin-left: calc(( var(--zm-wp-block-width) - 90vw)/2);
+    margin-right: calc(( var(--zm-wp-block-width) - 90vw)/2);
+    max-width: 90vw;
+    width: 90vw;
+  }
+}
+
+/*do not apply if has a sidebar and inside widgets!*/
+.no-align-widenfull .alignfull, .no-align-widenfull .alignwide, .widget .alignfull, .widget .alignwide {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/* -------------------------------------------------------------------------- */
+/*	2. wp-blocks margin
+/* -------------------------------------------------------------------------- */
+
+.wp-block-post-content > div,
+.zm-wp-block-container > div {
+  margin-top:40px;
+  /*margin-bottom:40px;*/
+}
+.wp-block-post-content > *:first-child,
+.zm-wp-block-container > *:first-child {
+  margin-top:0;
+}
+.wp-block-column, .wp-block-column > div, .wp-block-columns > .block-core-columns{
+  margin:0 !important;
+}
+
+/* -------------------------------------------------------------------------- */
+/*	3. wp-block optimizations
+/* -------------------------------------------------------------------------- */
+
+  /* forces earlier stacking of flex-grid */
+  @media (max-width: 781px) {
+    .wp-block-columns > .wp-block-column {
+        /*margin:0;*/
+        flex-basis: 100%!important;
+    }
+  }
+
+  /* replaces inherit */
+  pre.wp-block-verse{
+    font-family: revert;
+  }
+
+/* -------------------------------------------------------------------------- */
+/*	4. offcanvas_toggle rotation
+    -- set class "zmrotate" to change via jquery in zmtheme.js
+/* -------------------------------------------------------------------------- */
+
+.zmrotated-45 {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    -webkit-transition: transform 0.5s ease;
+    -moz-transition: transform 0.5s ease;
+    -ms-transition: transform 0.5s ease;
+    -o-transition: transform 0.5s ease;
+    transition: transform 0.5s ease;
+}
+/* -------------------------------------------------------------------------- */
+/*	5. uk-section-overlap
+/* -------------------------------------------------------------------------- */
+
+.uk-section-overlap{
+  margin-top:-112px;
+}
+
+/* -------------------------------------------------------------------------- */
+/*	6. box-shadow-bottom
+/* -------------------------------------------------------------------------- */
+
+/*.uk-box-shadow-bottom::before{
+  bottom:0px;
+}*/
+
+/* -------------------------------------------------------------------------- */
+/*	7. Background: Gradient & SkewY (Diagonal) with css-vars!!
+/* -------------------------------------------------------------------------- */
+
+.zmgradient{
+  position: relative;
+  background-color:unset;
+  z-index:1;
+  /*overflow: hidden;*/
+}
+.zmgradient::after{
+  content:"";
+  z-index:-1;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+
+/**
+  * adds background color (or via pseudo element)
+  * if has uk-flex; use background color! but has no skewy then!
+  * with skewy --> use after pseudo (note: flex verhindert before und after)
+  * card & button --> muted is default !
+  */
+.uk-section-default.zmgradient::after,
+.uk-tile-default.zmgradient::after,
+.uk-background-default.zmgradient::after,
+.uk-section-default.uk-flex.zmgradient {
+  background: linear-gradient(
+    var(--color_background_gradient_deg_default, 0deg),
+    var(--color_background_default, #ffffff)
+    var(--color_background_gradient_colstop_default, 0%),
+    var(--color_background_gradient_default, #ffffff)
+    var(--color_background_gradient_colstop2_default, 100%)
+  );
+}
+.uk-section-primary.zmgradient::after,
+.uk-card-primary.zmgradient::after,
+.uk-button-primary.zmgradient::after,
+.uk-tile-primary.zmgradient::after,
+.uk-background-primary.zmgradient::after,
+.uk-section-primary.uk-flex.zmgradient{
+  background: linear-gradient(
+    var(--color_background_gradient_deg_primary, 0deg),
+    var(--color_background_primary, #075c97)
+    var(--color_background_gradient_colstop_primary, 0%),
+    var(--color_background_gradient_primary, #2b77b4)
+    var(--color_background_gradient_colstop2_primary, 100%)
+    );
+}
+.uk-section-secondary.zmgradient::after,
+.uk-card-secondary.zmgradient::after,
+.uk-button-secondary.zmgradient::after,
+.uk-tile-secondary.zmgradient::after,
+.uk-background-secondary.zmgradient::after,
+.uk-section-secondary.uk-flex.zmgradient{
+  background: linear-gradient(
+    var(--color_background_gradient_deg_secondary, 0deg),
+    var(--color_background_secondary, #253946)
+    var(--color_background_gradient_colstop_secondary, 0%),
+    var(--color_background_gradient_secondary, #314C5E)
+    var(--color_background_gradient_colstop2_secondary, 100%)
+    );
+}
+.uk-section-muted.zmgradient::after,
+.uk-card-default.zmgradient::after,
+.uk-button-default.zmgradient::after,
+.uk-tile-muted.zmgradient::after,
+.uk-background-muted.zmgradient::after,
+.uk-section-muted.uk-flex.zmgradient{
+  background: linear-gradient(
+    var(--color_background_gradient_deg_muted, 0deg),
+    var(--color_background_muted, #f8f8f8)
+    var(--color_background_gradient_colstop_muted, 0%),
+    var(--color_background_gradient_muted, #f3f3f3)
+    var(--color_background_gradient_colstop2_muted, 100%)
+    );
+}
+
+.zm-background-skewy-default:after{
+  transform: skewY(var(--background_skewy_default, 11deg));
+}
+.zm-background-skewy-primary:after{
+  transform: skewY(var(--background_skewy_primary, 5deg));
+}
+.zm-background-skewy-secondary:after{
+  transform: skewY(var(--background_skewy_secondary, 18deg));
+}
+
+/* -------------------------------------------------------------------------- */
+/*	8. Must Use: display settings hide on small medium large
+/* -------------------------------------------------------------------------- */
+/* Phone landscape and bigger */
+@media (max-width: 639px) {
+  .zm-hidden-mobile {
+    display: none !important;
+  }
+}
+/* Tablet landscape and bigger */
+@media screen and (max-width: 1199px) and (min-width: 640px)  {
+  .zm-hidden-tablet {
+    display: none !important;
+  }
+}
+/* Desktop and bigger */
+@media (min-width: 1200px) {
+  .zm-hidden-desktop {
+    display: none !important;
+  }
+}
+/* -------------------------------------------------------------------------- */
+/*	9. vertical align via flex
+/* -------------------------------------------------------------------------- */
+.uk-section.uk-flex > .uk-container {
+	width:100%;
+}
+/* -------------------------------------------------------------------------- */
+/*	10. Accordion via blocks
+/*  works with blocks:
+/*    > group
+/*        > heading (class="uk-accordion-title")
+/*        > group (class="uk-accordion-content")
+/*            > content
+/* -------------------------------------------------------------------------- */
+.uk-accordion-title{
+  cursor:pointer;
+}
+.uk-accordion-content{
+  margin:0;
+}
+ul.uk-accordion > li.uk-open > * > * > * > .uk-accordion-title::before {
+      background-image: url(data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2213%22%20height%3D%2213%22%20viewBox%3D%220%200%2013%2013%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20fill%3D%22%23666%22%20width%3D%2213%22%20height%3D%221%22%20x%3D%220%22%20y%3D%226%22%20%2F%3E%0A%3C%2Fsvg%3E);
+}
+.uk-accordion-title::before {
+    content: "";
+    width: 1.4em;
+    height: 1.4em;
+    margin-left: 10px;
+    float: right;
+    background-image: url(data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2213%22%20height%3D%2213%22%20viewBox%3D%220%200%2013%2013%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20fill%3D%22%23666%22%20width%3D%2213%22%20height%3D%221%22%20x%3D%220%22%20y%3D%226%22%20%2F%3E%0A%20%20%20%20%3Crect%20fill%3D%22%23666%22%20width%3D%221%22%20height%3D%2213%22%20x%3D%226%22%20y%3D%220%22%20%2F%3E%0A%3C%2Fsvg%3E);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}

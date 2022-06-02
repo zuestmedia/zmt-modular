@@ -1,0 +1,143 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ZMTheme\n"
+"POT-Creation-Date: 2021-04-15 20:54+0200\n"
+"PO-Revision-Date: 2021-04-15 21:15+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.2\n"
+"X-Poedit-Basepath: ../config\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: modules/configArchiveTitle.php:20
+msgid "Blog"
+msgstr "Blog"
+
+#: modules/configArchiveTitle.php:24
+#, php-format
+msgid "Search Results for \"%s\""
+msgstr "Suchergebnisse für \"%s“"
+
+#: modules/configCommentsCounter.php:15
+msgid "No Comments"
+msgstr "Keine Kommentare"
+
+#: modules/configCommentsCounter.php:16
+#, php-format
+msgid "%s Comment"
+msgstr "%s Kommentar"
+
+#: modules/configCommentsCounter.php:17
+#, php-format
+msgid "%s Comments"
+msgstr "%s Kommentare"
+
+#: modules/configCommentsForm.php:22
+msgid "Comments are closed."
+msgstr "Die Kommentarfunktion ist deaktiviert."
+
+#: modules/configCommentsList.php:22
+msgid "Comments"
+msgstr "Kommentare"
+
+#: modules/configCommentsList.php:31
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s um %2$s Uhr"
+
+#: modules/configCommentsList.php:34
+msgid "Your comment is awaiting moderation."
+msgstr "Dein Kommentar wartet auf die Freischaltung."
+
+#: modules/configCommentsList.php:35
+msgid ""
+"Your comment is awaiting moderation. This is a preview, your comment will be "
+"visible after it has been approved."
+msgstr ""
+"Dein Kommentar wartet auf die Freischaltung. Dies ist eine Vorschau, Dein "
+"Kommentar wird sichtbar, nachdem er genehmigt wurde."
+
+#: modules/configCommentsList.php:36
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#: modules/configCommentsPagination.php:18 modules/configPagination.php:13
+msgid "Previous"
+msgstr "Zurück"
+
+#: modules/configCommentsPagination.php:19 modules/configPagination.php:14
+msgid "Next"
+msgstr "Weiter"
+
+#: modules/configEditlink.php:13
+msgid "Edit This"
+msgstr "Bearbeiten"
+
+#: modules/configErrorPage.php:15
+msgid "404 - Page Not Found"
+msgstr "404 - Seite nicht gefunden"
+
+#: modules/configErrorPage.php:16
+msgid ""
+"The page you were looking for could not be found. It might have been "
+"removed, renamed, or does not exist anymore."
+msgstr ""
+"Die Seite nach der du gesucht hast konnte nicht gefunden werden. "
+"Möglicherweise wurde sie entfernt, umbenennt oder existiert nicht mehr."
+
+#: modules/configLinkPages.php:15
+msgid "Continue Reading: "
+msgstr "Weiterlesen: "
+
+#: modules/configLinkPages.php:18
+msgid "Previous page"
+msgstr "Vorherige Seite"
+
+#: modules/configLinkPages.php:19
+msgid "Next page"
+msgstr "Nächste Seite"
+
+#: modules/configPowered.php:13
+msgid "Powered by ZuestMedia"
+msgstr "Powered by ZuestMedia"
+
+#: modules/configReadMore.php:15
+msgid "Read More"
+msgstr "Mehr"
+
+#: modules/configSearch.php:14
+msgid "Search"
+msgstr "Suchen"
+
+#: modules/configTaxonomyTerms.php:14 modules/configTaxonomyTerms.php:39
+msgid "Category"
+msgstr "Kategorie"
+
+#: modules/configTaxonomyTerms.php:28 modules/configTaxonomyTerms.php:57
+msgid "Tag"
+msgstr "Schlagwort"
+
+#: theme/theme.php:9
+msgid "ZMTheme"
+msgstr "ZMTheme"
+
+#: theme/welcomepage.php:9
+msgid ""
+"<strong>Please note:</strong> To be able to manage Theme Settings and to use "
+"the Customizer, you need to install ZM Toolbox Core Plugin. If you do not "
+"need or want to change any theme settings, you can proceed using this theme, "
+"without any need of installing ZM Toolbox. But check it out, it is free and "
+"there are cool features you do not want to miss!"
+msgstr ""
+"<strong>Bitte beachten:</strong> Um Theme-Einstellungen verwalten und den "
+"Customizer verwenden zu können, musst du das ZM Toolbox Core Plugin "
+"installieren. Wenn du keine Designeinstellungen ändern musst oder möchtest, "
+"kannst du fortfahren, ohne ZM Toolbox installieren zu müssen. Aber schau es "
+"dir an, es ist kostenlos und es gibt coole Funktionen, die du nicht "
+"verpassen möchten!"
