@@ -25,5 +25,8 @@ To install ZMT Modular, go to Dashboard >> Themes >> Add new. Then enter "Modula
 
 == Changelog ==
 
+= 0.9.1 =
+* Connected with ZM Update API
+
 = 0.9.0 =
 * Initial release of ZMT Modular
