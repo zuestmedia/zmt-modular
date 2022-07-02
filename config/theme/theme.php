@@ -8,7 +8,7 @@ class theme {
 
     $this->displayname = __( 'Modular', 'zmtheme' );
 
-    $this->version = '0.9.1';
+    $this->version = '0.9.2';
     $this->version_notice = __( 'Warning: Versions of ZMTheme are not consistent!', 'zmtheme' );
 
     $this->framework = 'zm-uikit';

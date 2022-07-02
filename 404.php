@@ -1,9 +1,6 @@
 <?php
 /**
- * The template for displaying the 404 template in the ZM Master Theme.
- *
- * @package zmtheme
- * @since 1.0.0
+ * The template for displaying the 404 template in ZM Themes.
  */
 
 get_header();

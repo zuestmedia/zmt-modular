@@ -1,9 +1,6 @@
 <?php
 /**
  * The template for displaying the footer
- *
- * @package zmtheme
- * @since 1.0.0
  */
 
 global $zmtheme;

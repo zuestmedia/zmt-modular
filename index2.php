@@ -2,8 +2,6 @@
 /**
  * The main template file
  * more static editable version
- * @package zmtheme
- * @since 1.0.0
  */
 
 get_header();

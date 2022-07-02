@@ -1,9 +1,6 @@
 <?php
 /**
- * Header file for the ZMTheme Master Theme.
- *
- * @package zmtheme
- * @since 1.0.0
+ * Header file for ZM Themes.
  */
 
 global $zmtheme;

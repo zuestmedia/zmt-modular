@@ -1,10 +1,6 @@
 <?php
 /**
-  * The template file for displaying the comments and comment form for the
-  * ZMTheme Master theme.
-  *
-  * @package zmtheme
-  * @since 1.0.0
+  * The template file for displaying the comments and comment form for ZM Themes
   */
   defined( 'ABSPATH' ) or die( 'No script kiddies please!' );
 

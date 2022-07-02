@@ -1,10 +1,8 @@
 <?php
 
 /**
-  * ZMTheme functions.php is an Psr4AutoloaderClass
+  * ZM Themes functions.php is an Psr4AutoloaderClass
   * Important: Create a child theme to customize theme-files like functions.php
-  * @package zmtheme
-  * @since 1.0.0
   */
   defined( 'ABSPATH' ) or die( 'No script kiddies please!' );
 
