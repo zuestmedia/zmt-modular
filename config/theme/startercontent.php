@@ -98,7 +98,7 @@ class startercontent {
       //nav
       'nav_menus' => array(
         'nav__menu' => array(
-          'name' => __( 'Main Menu', 'zmtheme' ),
+          'name' => 'Main Menu',
           'items' => array(
             'page_home',
             'page_about',
@@ -107,7 +107,7 @@ class startercontent {
           ),
         ),
         'offcanvas__menu' => array(
-          'name' => __( 'Main Menu', 'zmtheme' ),
+          'name' => 'Main Menu',
           'items' => array(
             'page_home',
             'page_about',
@@ -116,7 +116,7 @@ class startercontent {
           ),
         ),
         'nav_primary__menu__1' => array(
-          'name' => __( 'Social Links Menu', 'zmtheme' ),
+          'name' => 'Social Links Menu',
           'items' => array(
             'link_github',
             'link_linkedin',

@@ -17,7 +17,7 @@ class gradients {
 
     $this->gradient_palette_array = array(
         array(
-          'name'     => esc_attr__( 'Default Gradient', 'zmtheme' ),
+          'name'     => 'Default Gradient',
           'gradient' => 'linear-gradient(
             var(--color_background_gradient_deg_default, 0deg),
             var(--color_background_default, #ffffff)
@@ -28,7 +28,7 @@ class gradients {
           'slug'     => 'gradient_default'
         ),
         array(
-          'name'     => esc_attr__( 'Primary Gradient', 'zmtheme' ),
+          'name'     => 'Primary Gradient',
           'gradient' => 'linear-gradient(
             var(--color_background_gradient_deg_primary, 0deg),
             var(--color_background_primary, #075c97)
@@ -39,7 +39,7 @@ class gradients {
           'slug'     => 'gradient_primary'
         ),
         array(
-          'name'     => esc_attr__( 'Secondary Gradient', 'zmtheme' ),
+          'name'     => 'Secondary Gradient',
           'gradient' => 'linear-gradient(
             var(--color_background_gradient_deg_secondary, 0deg),
             var(--color_background_secondary, #253946)
@@ -50,7 +50,7 @@ class gradients {
           'slug'     => 'gradient_secondary'
         ),
         array(
-          'name'     => esc_attr__( 'Muted Gradient', 'zmtheme' ),
+          'name'     => 'Muted Gradient',
           'gradient' => 'linear-gradient(
             var(--color_background_gradient_deg_muted, 0deg),
             var(--color_background_muted, #f8f8f8)

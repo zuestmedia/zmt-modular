@@ -19,7 +19,6 @@ class BuildObject {
     * default result: $this->theme = new theme();
     */
     $this->theme =  Build::newClass( $n->getClass('theme') );
-    $this->welcomepage =  Build::newClass( $n->getClass('welcomepage') );
     $this->startercontent =  Build::newClass( $n->getClass('startercontent') );
     $this->colors =  Build::newClass( $n->getClass('colors') );
     $this->gradients =  Build::newClass( $n->getClass('gradients') );

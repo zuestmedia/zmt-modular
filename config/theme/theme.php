@@ -6,18 +6,17 @@ class theme {
 
   function __construct(){
 
-    $this->displayname = __( 'Modular', 'zmtheme' );
+    $this->displayname = __( 'ZM Modular', 'zmtheme' );
 
-    $this->version = '0.9.2';
-    $this->version_notice = __( 'Warning: Versions of ZMTheme are not consistent!', 'zmtheme' );
+    $this->version = '0.9.3';
 
     $this->framework = 'zm-uikit';
 
-    $this->css = '/assets/css/uikit.zmtheme.css';
-    $this->css_rtl = '/assets/css/uikit.zmtheme-rtl.css';
+    $this->css = '/assets/css/uikit.zmt-modular.min.css';//Version 3.15.1
+    $this->css_rtl = '/assets/css/uikit.zmt-modular-rtl.min.css';//Version 3.15.1
 
-    $this->js = '/assets/js/uikit.min.js';
-    $this->icons = '/assets/js/uikit-icons.min.js';
+    $this->js = '/assets/js/uikit.min.js';//Version 3.15.1
+    $this->icons = '/assets/js/uikit-icons.min.js';//Version 3.15.1
 
     $this->js_array = array(
       array(
@@ -28,8 +27,6 @@ class theme {
         'js_in_footer' => NULL
       )
     );
-
-    $this->ie11_support = '/assets/js/ie11CustomProperties.js';
 
     $this->head_modules = array(
       'globals__colors',
