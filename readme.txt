@@ -35,6 +35,13 @@ Select the previously downloaded Theme-Zip-File and click "Install now".
 
 == Changelog ==
 
+= 0.9.4 =
+* Update: ci/cd update
+* Update: modQueryTerm added filter group control
+* Update: modQueryTerm added filter-controll for portfolio js-filter-menu
+* Update: UIKIT CSS overlay.less opacity to overlay-default and -primary
+* Update: added var js_array_child_theme to add custom js in child themes (via config/theme.php)
+
 = 0.9.3 =
 * Update: Tested up to: 6.0.1
 * Fix: post-id and -classes to most outer container
