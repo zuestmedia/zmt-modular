@@ -132,39 +132,3 @@ jQuery(document).ready(function($) {
 		obj.children('a').append('<i uk-icon="icon:' + iconclass + ';ratio:' + ratio + ';"></i>');
 
 	}
-
-
-
-	// recalculate on resize
-	window.addEventListener('resize', zmListenonResizeingWindow, false);
-	// recalculate on dom load
-	document.addEventListener('DOMContentLoaded', zmListenonResizeingWindow, false);
-	// recalculate on load (assets loaded as well)
-	window.addEventListener('load', zmListenonResizeingWindow);
-
-	function zmListenonResizeingWindow(){
-
-		zmCalculateScrollbarWidth();
-
-		zmGetArticleContainerWidth();
-
-	}
-
-	function zmGetArticleContainerWidth() {
-
-		var x = document.getElementsByClassName('zm-wp-block-width');
-
-		if (x.length > 0) {
-
-			document.documentElement.style.setProperty('--zm-wp-block-width', x[0].clientWidth + "px");
-
-		}
-
-	}
-
-	//scrollbar width for alignfull calculation
-	function zmCalculateScrollbarWidth() {
-
-		document.documentElement.style.setProperty('--scrollbar-width', (window.innerWidth - document.documentElement.clientWidth) + "px");
-
-	}

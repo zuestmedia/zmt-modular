@@ -35,6 +35,17 @@ Select the previously downloaded Theme-Zip-File and click "Install now".
 
 == Changelog ==
 
+= 0.9.5
+* New: Block Templates (CPT)
+* Update: Startercontent simpler
+* Update: UIKIT Version 3.15.3
+* Update: some configFiles
+* Update: Translation Files DE
+* Fix: add alignfull / wide JS (to genereate CSS Var --scrollbar-width & --zm-wp-block-width) to head instead of zmtheme.js, to load faster and avoid window jumping
+* Fix: update alignfull / wide css in blockeditor to fit always screen
+* Fix: getQueryLoop json_decode true; wp_query needs output as array
+* Removed: block-template test folders and files
+
 = 0.9.4 =
 * Update: ci/cd update
 * Update: modQueryTerm added filter group control

@@ -8,7 +8,7 @@ class theme {
 
     $this->displayname = __( 'ZM Modular', 'zmtheme' );
 
-    $this->version = '0.9.4';
+    $this->version = '0.9.5';
 
     $this->framework = 'zm-uikit';
 
@@ -23,7 +23,7 @@ class theme {
         'js_slug' => 'zmtheme-js',
         'js_url' => '/assets/js/zmtheme.js',
         'js_deps' => array('jquery','zm-uikit-js','zm-uikit-icons'),
-        'js_ver' => '1.0.0',
+        //'js_ver' => '1.0.0',//get auto version!
         'js_in_footer' => NULL
       )
     );

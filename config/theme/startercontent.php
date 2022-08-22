@@ -16,64 +16,6 @@ class startercontent {
       * https://www.ibenic.com/create-starter-content-wordpress-themes/
       */
 
-      //widgets
-      'widgets' => array(
-
-        /*'header__section_defsidebar' =>
-          array('empty'),*/
-
-        'header__section__1_defsidebar' =>
-          array(
-            'text_about',
-          ),
-
-        'center__section__1_defsidebar' =>
-          array(
-            /*'text_about',
-            'text_about',
-            'text_about',*/
-            // Widget ID
-            'zmtext_1' => array(
-            	'text' ,//type
-          		array(
-          		  'title' => 'What we do',
-          		  'text'  => 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.'
-          		)
-          	),
-            'zmtext_2' => array(
-            	'text' ,//type
-          		array(
-          		  'title' => 'How we do',
-          		  'text'  => 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.'
-          		)
-          	),
-            'zmtext_3' => array(
-            	'text' ,//type
-          		array(
-          		  'title' => 'Why we do',
-          		  'text'  => 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.'
-          		)
-          	),
-          ),
-
-      /*  'nav_primary__sidebar' =>
-          array(
-            'text_business_info',
-          ),*/
-
-        /*'sidebar-2' =>
-          array(
-            'text_business_info',
-          ),
-
-        'footer__section_defsidebar' =>
-          array(
-            'text_about',
-            'search',
-          ),*/
-
-      ),
-
       //posts
       'posts' => array(
          'home',
@@ -97,7 +39,7 @@ class startercontent {
 
       //nav
       'nav_menus' => array(
-        'nav__menu' => array(
+        'nav__menu__1' => array(
           'name' => 'Main Menu',
           'items' => array(
             'page_home',
@@ -113,16 +55,6 @@ class startercontent {
             'page_about',
             'page_blog',
             'page_contact',
-          ),
-        ),
-        'nav_primary__menu__1' => array(
-          'name' => 'Social Links Menu',
-          'items' => array(
-            'link_github',
-            'link_linkedin',
-            'link_facebook',
-            'link_twitter',
-            'link_instagram',
           ),
         ),
       ),
