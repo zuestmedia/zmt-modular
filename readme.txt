@@ -35,6 +35,10 @@ Select the previously downloaded Theme-Zip-File and click "Install now".
 
 == Changelog ==
 
+= 0.9.6 =
+* Fix: Com-Type and Module labels fixed
+* Update: Block Templates added assignment column
+
 = 0.9.5
 * New: Block Templates (CPT)
 * Update: Startercontent simpler

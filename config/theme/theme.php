@@ -8,7 +8,7 @@ class theme {
 
     $this->displayname = __( 'ZM Modular', 'zmtheme' );
 
-    $this->version = '0.9.5';
+    $this->version = '0.9.6';
 
     $this->framework = 'zm-uikit';
 
