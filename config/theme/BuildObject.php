@@ -20,8 +20,6 @@ class BuildObject {
     */
     $this->theme =  Build::newClass( $n->getClass('theme') );
     $this->startercontent =  Build::newClass( $n->getClass('startercontent') );
-    $this->colors =  Build::newClass( $n->getClass('colors') );
-    $this->gradients =  Build::newClass( $n->getClass('gradients') );
 
 
 

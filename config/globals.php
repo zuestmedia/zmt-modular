@@ -8,7 +8,11 @@ class globals extends \ZMT\Theme\Templates\_globals {
 
     parent::__construct();
 
-    //nothing to do so far here, all obj defined in parent!
+    $this->colors  = new \ZMT\Theme\Config\Modules\configCssVars('colors');
+    $this->body  = new \ZMT\Theme\Config\Modules\configCssVars('body');
+    $this->heading  = new \ZMT\Theme\Config\Modules\configCssVars('heading');
+    $this->logo  = new \ZMT\Theme\Config\Modules\configCssVars('logo');
+    $this->navbar  = new \ZMT\Theme\Config\Modules\configCssVars('navbar');
 
   }
 

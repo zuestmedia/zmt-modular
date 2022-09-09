@@ -5,11 +5,11 @@ Author: Michael Züst
 Author URI: https://zuestmedia.ch/
 Text Domain: zmt-modular
 Domain Path: /languages
-Version: 0.9.6
+Version: 0.9.7
 Description: The ZMT Modular Premium WordPress Theme is a completly customizable multi-purpose-theme created with ZMTheme-Framework.
 Tags: blog, custom-logo, e-commerce, rtl-language-support, grid-layout, one-column, two-columns, custom-background, custom-colors, custom-header, custom-menu, featured-image-header, featured-images, flexible-header, full-width-template, sticky-post, theme-options, threaded-comments, translation-ready, accessibility-ready, wide-blocks, block-styles, footer-widgets, portfolio, left-sidebar, right-sidebar
 Requires at least: 4.7
-Tested up to: 6.0.1
+Tested up to: 6.0.2
 Requires PHP: 7.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -243,21 +243,6 @@ a img.aligncenter {
     -o-transition: transform 0.5s ease;
     transition: transform 0.5s ease;
 }
-/* -------------------------------------------------------------------------- */
-/*	5. uk-section-overlap
-/* -------------------------------------------------------------------------- */
-
-.uk-section-overlap{
-  margin-top:-112px;
-}
-
-/* -------------------------------------------------------------------------- */
-/*	6. box-shadow-bottom
-/* -------------------------------------------------------------------------- */
-
-/*.uk-box-shadow-bottom::before{
-  bottom:0px;
-}*/
 
 /* -------------------------------------------------------------------------- */
 /*	7. Background: Gradient & SkewY (Diagonal) with css-vars!!
@@ -294,7 +279,7 @@ a img.aligncenter {
     var(--color_background_default, #ffffff)
     var(--color_background_gradient_colstop_default, 0%),
     var(--color_background_gradient_default, #ffffff)
-    var(--color_background_gradient_colstop2_default, 100%)
+    var(--color_background_gradient_colstop2_default, 0%)
   );
 }
 .uk-section-primary.zmgradient::after,
@@ -305,10 +290,10 @@ a img.aligncenter {
 .uk-section-primary.uk-flex.zmgradient{
   background: linear-gradient(
     var(--color_background_gradient_deg_primary, 0deg),
-    var(--color_background_primary, #075c97)
+    var(--color_background_primary, #dd3f8f)
     var(--color_background_gradient_colstop_primary, 0%),
-    var(--color_background_gradient_primary, #2b77b4)
-    var(--color_background_gradient_colstop2_primary, 100%)
+    var(--color_background_gradient_primary, #dd3f8f)
+    var(--color_background_gradient_colstop2_primary, 0%)
     );
 }
 .uk-section-secondary.zmgradient::after,
@@ -319,10 +304,10 @@ a img.aligncenter {
 .uk-section-secondary.uk-flex.zmgradient{
   background: linear-gradient(
     var(--color_background_gradient_deg_secondary, 0deg),
-    var(--color_background_secondary, #253946)
+    var(--color_background_secondary, #4e6e8e)
     var(--color_background_gradient_colstop_secondary, 0%),
-    var(--color_background_gradient_secondary, #314C5E)
-    var(--color_background_gradient_colstop2_secondary, 100%)
+    var(--color_background_gradient_secondary, #4e6e8e)
+    var(--color_background_gradient_colstop2_secondary, 0%)
     );
 }
 .uk-section-muted.zmgradient::after,
@@ -335,8 +320,8 @@ a img.aligncenter {
     var(--color_background_gradient_deg_muted, 0deg),
     var(--color_background_muted, #f8f8f8)
     var(--color_background_gradient_colstop_muted, 0%),
-    var(--color_background_gradient_muted, #f3f3f3)
-    var(--color_background_gradient_colstop2_muted, 100%)
+    var(--color_background_gradient_muted, #f8f8f8)
+    var(--color_background_gradient_colstop2_muted, 0%)
     );
 }
 
@@ -370,37 +355,4 @@ a img.aligncenter {
   .zm-hidden-desktop {
     display: none !important;
   }
-}
-/* -------------------------------------------------------------------------- */
-/*	9. vertical align via flex
-/* -------------------------------------------------------------------------- */
-.uk-section.uk-flex > .uk-container {
-	width:100%;
-}
-/* -------------------------------------------------------------------------- */
-/*	10. Accordion via blocks
-/*  works with blocks:
-/*    > group
-/*        > heading (class="uk-accordion-title")
-/*        > group (class="uk-accordion-content")
-/*            > content
-/* -------------------------------------------------------------------------- */
-.uk-accordion-title{
-  cursor:pointer;
-}
-.uk-accordion-content{
-  margin:0;
-}
-ul.uk-accordion > li.uk-open > * > * > * > .uk-accordion-title::before {
-      background-image: url(data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2213%22%20height%3D%2213%22%20viewBox%3D%220%200%2013%2013%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20fill%3D%22%23666%22%20width%3D%2213%22%20height%3D%221%22%20x%3D%220%22%20y%3D%226%22%20%2F%3E%0A%3C%2Fsvg%3E);
-}
-.uk-accordion-title::before {
-    content: "";
-    width: 1.4em;
-    height: 1.4em;
-    margin-left: 10px;
-    float: right;
-    background-image: url(data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2213%22%20height%3D%2213%22%20viewBox%3D%220%200%2013%2013%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20fill%3D%22%23666%22%20width%3D%2213%22%20height%3D%221%22%20x%3D%220%22%20y%3D%226%22%20%2F%3E%0A%20%20%20%20%3Crect%20fill%3D%22%23666%22%20width%3D%221%22%20height%3D%2213%22%20x%3D%226%22%20y%3D%220%22%20%2F%3E%0A%3C%2Fsvg%3E);
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
 }

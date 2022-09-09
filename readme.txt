@@ -35,6 +35,12 @@ Select the previously downloaded Theme-Zip-File and click "Install now".
 
 == Changelog ==
 
+= 0.9.7 =
+* Update: UIKIT Version 3.15.6
+* Update: CSSVars config, presets, style.css and theme.json
+* Removed: colors & gradients (kept in theme.json)
+* New: CSS Type Selection
+
 = 0.9.6 =
 * Fix: Com-Type and Module labels fixed
 * Update: Block Templates added assignment column

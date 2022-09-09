@@ -8,9 +8,11 @@ class theme {
 
     $this->displayname = __( 'ZM Modular', 'zmtheme' );
 
-    $this->version = '0.9.6';
+    $this->version = '0.9.7';
 
     $this->framework = 'zm-uikit';
+
+    $this->css_type = 'default';
 
     $this->css = '/assets/css/uikit.zmt-modular.min.css';//Version 3.15.1
     $this->css_rtl = '/assets/css/uikit.zmt-modular-rtl.min.css';//Version 3.15.1
