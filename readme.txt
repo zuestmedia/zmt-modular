@@ -35,6 +35,9 @@ Select the previously downloaded Theme-Zip-File and click "Install now".
 
 == Changelog ==
 
+= 0.9.8 =
+* Update: CSS Buttons / button_dark into folder
+
 = 0.9.7 =
 * Update: UIKIT Version 3.15.6
 * Update: CSSVars config, presets, style.css and theme.json
