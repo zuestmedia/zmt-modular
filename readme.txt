@@ -35,6 +35,13 @@ Select the previously downloaded Theme-Zip-File and click "Install now".
 
 == Changelog ==
 
+= 0.9.10 =
+* New: Background Image - Options for posts featured image and external url added
+* New: Add a "MY Block Patterns" folder to your child-theme
+* Fix: Block Separator alignment options added in style.css
+* Fix: default_config optimizations
+* Fix: section_content choices
+
 = 0.9.9 =
 * Update: Less/CSS no quotation marks in css vars
 
