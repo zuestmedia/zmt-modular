@@ -35,6 +35,12 @@ Select the previously downloaded Theme-Zip-File and click "Install now".
 
 == Changelog ==
 
+= 0.9.11 =
+* Update: Default Blog Style updated (config files)
+* Update: style.css "tablet-landscape" class
+* Update: UIKIT Version 3.15.10
+* Update: modPostMeta not showing empty values anymore (needs update for showing serialized data if necessary in future)
+
 = 0.9.10 =
 * New: Background Image - Options for posts featured image and external url added
 * New: Add a "MY Block Patterns" folder to your child-theme

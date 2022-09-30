@@ -86,8 +86,6 @@ class configCssVars extends \ZMT\Theme\DefaultConfig\configCssVars {
     protected function logo() {
       parent::logo();
       $this->args['logo_fontfamily'] = 'Trebuchet MS, sans-serif';
-      $this->args['logo_fontsize'] = '32px';
-      $this->args['logo_fontweight'] = '600';
     }
     protected function navbar() {
       parent::navbar();

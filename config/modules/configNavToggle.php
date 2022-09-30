@@ -8,7 +8,7 @@ class configNavToggle extends \ZMT\Theme\DefaultConfig\configNavToggle {
 
       parent::navbar();
 
-      $this->args['module_class_visibility'] = array('zm-hidden-desktop');
+      $this->args['module_class_visibility'] = array('zm-hidden-desktop','zm-hidden-tablet-landscape');
 
     }
 
