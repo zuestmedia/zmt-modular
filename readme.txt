@@ -6,22 +6,55 @@ Requires PHP: 7.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-A ZMT Premium WordPress Theme.
+ZM Modular is a lightweight, fast and fully customizable WordPress theme based on the ZM-Theme-Framework.
 
 == Description ==
 
-The ZMT Modular Premium WordPress Theme is a completely customizable multi-purpose-theme created with [ZMTheme-Framework](https://zmtheme.com/).
+[ZM Modular](https://zmtheme.com/) is a lightweight, fast and fully customizable WordPress theme based on the ZM-Theme-Framework.
+
+This theme combines the new modern features of Gutenberg Block Editor respectively concepts from Full Site Editing (FSE) with the proven classic WordPress theme structure.
+
+= Block Templates =
+With Block Templates you can create dynamic or static content with the Gutenberg Editor and embed it at any position on the website using the Template Editor. How about a featured image header or a custom footer menu? All no problem with blocks directly in Gutenberg Editor!
+
+= Design Explorer =
+For a quick start, import a preconfigured starter design directly from the Design-Explorer and get started right away.
+
+= Customizer =
+Use the Customizer to define global settings like colors, fonts, etc. and customize every part of your website.
+
+= Template Editor <sup>*</sup> =
+Thanks to the modular design, header and footer builders are a thing of the past. With the template editor (Pro) or by using a child theme you can easily create as many sections as you need in the header, center or footer area and arrange them as you like and fill them with modules. Or you can create any section with blocks as well.
+
+= Modular structure =
+You can move, show or hide all WordPress building blocks (modules) like title, content, category, keyword, post image and all other modules as you like, as well as customize the style and HTML code.
+
+= ZM Plugin Extension (optional) =
+To enable theme settings in dashboard and customizer you need ZM Plugin. ZM Plugin is a free WordPress extension to manage theme options and customizer settings of ZM theme framework based WordPress themes.
+
+After installing the theme and the extension ZM Plugin, you can use all theme features.
+
+The theme can also be used "standalone" in this version and/or programmatically customized via Child-Theme.
+
+<sup>*</sup> only available in combination with ZM Pro
+
+== Resources ==
+
+Learn more about ZM WordPress themes and plugins at [zmtheme.com](https://zmtheme.com/).
+
+If you have any questions or need help, visit the [support page](https://zmtheme.com/support/).
+
+You can also find us on [Github](https://github.com/zuestmedia/)!
 
 == Frequently Asked Questions ==
 
-= Is ZMT Modular Free? =
+= Is ZM Modular Free? =
 
-Yes, ZMT Modular is free of charge forever, and always will be.
+Yes, the ZM Modular theme is free of charge forever, and always will be.
 
-= Is there a Pro version? =
+= Is there an extension? =
 
-Yes, there is an optional Pro Plugin which includes additional features, more design templates and as well prioritized support.
-Find out more [here](https://zmtheme.com/).
+Yes, there is a free extenstion ZM Plugin which includes additional features. Find out more on [zmtheme.com](https://zmtheme.com/).
 
 = How to install this Theme from WordPress? =
 
@@ -34,6 +67,18 @@ Go to Dashboard >> Appearance >> Themes >> Add New >> Upload Theme.
 Select the previously downloaded Theme-Zip-File and click "Install now".
 
 == Changelog ==
+
+= 1.0.0 =
+* Update: readme.txt
+* Update: screenshot.png
+* Update: CSS wp-block-button no underline
+* Update: Language Files
+* Update: Comments mod, walker & config
+* Update: configImage - remove posts caption
+* Update: Authorbox/Commentslist -> Avatarsize & Class Options added & style update (border-circle)
+* Remove: Starter Content
+* Update: Errormenu text & link to zmplugin download
+* Update: accesibility - skip to content link, html5 tags (header, main, footer), aria-label search, screen-reader-text to read-more, underline all content-links
 
 = 0.9.11 =
 * Update: Default Blog Style updated (config files)
