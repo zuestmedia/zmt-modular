@@ -68,6 +68,9 @@ Select the previously downloaded Theme-Zip-File and click "Install now".
 
 == Changelog ==
 
+= 1.0.2 =
+* Fix: Change Author URI to submit without error to WordPress Directory
+
 = 1.0.1 =
 * Fix: configContainer & configContainerArticleList remove module_inner_attrs hr, but added option in presets
 
