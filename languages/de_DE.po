@@ -1,104 +1,22 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: zmt-modular-0.9.2\n"
-"POT-Creation-Date: 2022-08-22 15:46+0200\n"
-"PO-Revision-Date: 2022-08-22 15:46+0200\n"
+"Project-Id-Version: ZMT Modular\n"
+"POT-Creation-Date: 2022-10-22 16:49+0200\n"
+"PO-Revision-Date: 2022-10-22 16:49+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
-"Language: de_DE\n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 3.1.1\n"
 "X-Poedit-Basepath: ..\n"
-"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-KeywordsList: __\n"
 "X-Poedit-SearchPath-0: .\n"
-"X-Poedit-SearchPathExcluded-0: app\n"
-"X-Poedit-SearchPathExcluded-1: .git\n"
+"X-Poedit-SearchPathExcluded-0: .git\n"
+"X-Poedit-SearchPathExcluded-1: app\n"
 
 #: config/theme/theme.php:9
-msgid "ZM Modular"
-msgstr "ZM Modular (Deutsch)"
-
-#~ msgid "Blog"
-#~ msgstr "Blog"
-
-#, php-format
-#~ msgid "Search Results for \"%s\""
-#~ msgstr "Suchergebnisse für \"%s“"
-
-#~ msgid "No Comments"
-#~ msgstr "Keine Kommentare"
-
-#, php-format
-#~ msgid "%s Comment"
-#~ msgstr "%s Kommentar"
-
-#, php-format
-#~ msgid "%s Comments"
-#~ msgstr "%s Kommentare"
-
-#~ msgid "Comments are closed."
-#~ msgstr "Die Kommentarfunktion ist deaktiviert."
-
-#~ msgid "Comments"
-#~ msgstr "Kommentare"
-
-#, php-format
-#~ msgid "%1$s at %2$s"
-#~ msgstr "%1$s um %2$s Uhr"
-
-#~ msgid "Your comment is awaiting moderation."
-#~ msgstr "Dein Kommentar wartet auf die Freischaltung."
-
-#~ msgid "Your comment is awaiting moderation. This is a preview, your comment will be visible after it has been approved."
-#~ msgstr "Dein Kommentar wartet auf die Freischaltung. Dies ist eine Vorschau, Dein Kommentar wird sichtbar, nachdem er genehmigt wurde."
-
-#~ msgid "Edit"
-#~ msgstr "Bearbeiten"
-
-#~ msgid "Previous"
-#~ msgstr "Zurück"
-
-#~ msgid "Next"
-#~ msgstr "Weiter"
-
-#~ msgid "Edit This"
-#~ msgstr "Bearbeiten"
-
-#~ msgid "404 - Page Not Found"
-#~ msgstr "404 - Seite nicht gefunden"
-
-#~ msgid "The page you were looking for could not be found. It might have been removed, renamed, or does not exist anymore."
-#~ msgstr "Die Seite nach der du gesucht hast konnte nicht gefunden werden. Möglicherweise wurde sie entfernt, umbenennt oder existiert nicht mehr."
-
-#~ msgid "Continue Reading: "
-#~ msgstr "Weiterlesen: "
-
-#~ msgid "Previous page"
-#~ msgstr "Vorherige Seite"
-
-#~ msgid "Next page"
-#~ msgstr "Nächste Seite"
-
-#~ msgid "Powered by ZuestMedia"
-#~ msgstr "Powered by ZuestMedia"
-
-#~ msgid "Read More"
-#~ msgstr "Mehr"
-
-#~ msgid "Search"
-#~ msgstr "Suchen"
-
-#~ msgid "Category"
-#~ msgstr "Kategorie"
-
-#~ msgid "Tag"
-#~ msgstr "Schlagwort"
-
-#~ msgid "ZMTheme"
-#~ msgstr "ZMTheme"
-
-#~ msgid "<strong>Please note:</strong> To be able to manage Theme Settings and to use the Customizer, you need to install ZM Toolbox Core Plugin. If you do not need or want to change any theme settings, you can proceed using this theme, without any need of installing ZM Toolbox. But check it out, it is free and there are cool features you do not want to miss!"
-#~ msgstr "<strong>Bitte beachten:</strong> Um Theme-Einstellungen verwalten und den Customizer verwenden zu können, musst du das ZM Toolbox Core Plugin installieren. Wenn du keine Designeinstellungen ändern musst oder möchtest, kannst du fortfahren, ohne ZM Toolbox installieren zu müssen. Aber schau es dir an, es ist kostenlos und es gibt coole Funktionen, die du nicht verpassen möchten!"
+msgid "ZMT Modular"
+msgstr "ZMT Modular (Deutsch)"

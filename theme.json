@@ -2,24 +2,30 @@
     "version": 2,
     "settings": {
 
+        "typography": {
+                    "lineHeight": true
+        },
+
         "layout": {
                     "contentSize": "1200px",
                     "wideSize": "90%"
         },
 
         "border": {
-                    "customColor": true,
-                    "customRadius": true,
-                    "customStyle": true,
-                    "customWidth": true
+                    "color": true,
+                    "radius": true,
+                    "style": true,
+                    "width": true
         },
 
         "spacing": {
-                    "customPadding": true,
-                    "customMargin": true
+                    "blockGap": true,
+                    "padding": true,
+                    "margin": true
         },
 
         "color": {
+            "link": true,
             "palette": [
                 {
                     "name": "Default Color",

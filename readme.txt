@@ -1,16 +1,16 @@
-=== Modular ===
+=== ZMT Modular ===
 Contributors: zuestmedia
 Requires at least: 4.7
-Tested up to: 6.0.1
+Tested up to: 6.0
 Requires PHP: 7.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-ZM Modular is a lightweight, fast and fully customizable WordPress theme based on the ZM-Theme-Framework.
+ZMT Modular is a lightweight, fast and fully customizable WordPress theme based on the ZM-Theme-Framework.
 
 == Description ==
 
-[ZM Modular](https://zmtheme.com/) is a lightweight, fast and fully customizable WordPress theme based on the ZM-Theme-Framework.
+[ZMT Modular](https://zmtheme.com/) is a lightweight, fast and fully customizable WordPress theme based on the ZM-Theme-Framework.
 
 This theme combines the new modern features of Gutenberg Block Editor respectively concepts from Full Site Editing (FSE) with the proven classic WordPress theme structure.
 
@@ -48,9 +48,9 @@ You can also find us on [Github](https://github.com/zuestmedia/)!
 
 == Frequently Asked Questions ==
 
-= Is ZM Modular Free? =
+= Is ZMT Modular Free? =
 
-Yes, the ZM Modular theme is free of charge forever, and always will be.
+Yes, the ZMT Modular theme is free of charge forever, and always will be.
 
 = Is there an extension? =
 
@@ -59,7 +59,7 @@ Yes, there is a free extenstion ZM Plugin which includes additional features. Fi
 = How to install this Theme from WordPress? =
 
 Go to Dashboard >> Appearance >> Themes >> Add New.
-Enter "Modular" in the search field, click on install and activate.
+Enter "ZMT Modular" in the search field, click on install and activate.
 
 = How to install this Theme via Theme-Zip-File =
 
@@ -67,6 +67,15 @@ Go to Dashboard >> Appearance >> Themes >> Add New >> Upload Theme.
 Select the previously downloaded Theme-Zip-File and click "Install now".
 
 == Changelog ==
+
+= 1.0.3 =
+* Update: readme and style css
+* Update: theme.json updated (v2 additional features)
+* Update: added copyright and powered by
+* Update: add icons via class with MenuWalker (nav-menus)
+* Update: Language Files de_DE
+* Fix: Text-Domain Strings
+* Removed: Moved Custom Post Type for Block Templates to zmplugin
 
 = 1.0.2 =
 * Fix: Change Author URI to submit without error to WordPress Directory
@@ -153,6 +162,10 @@ Select the previously downloaded Theme-Zip-File and click "Install now".
 
 = 0.9.0 =
 * Initial release of ZMT Modular
+
+== Copyright ==
+ZMT Modular WordPress Theme, Copyright 2022 zmtheme.com
+ZMT Modular is distributed under the terms of the GNU GPL
 
 == Resources ==
 * uikit © 2022 YOOtheme GmbH, MIT
