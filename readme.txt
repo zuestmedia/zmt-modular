@@ -1,7 +1,7 @@
 === ZMT Modular ===
 Contributors: zuestmedia
 Requires at least: 4.7
-Tested up to: 6.0
+Tested up to: 6.1
 Requires PHP: 7.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -29,20 +29,20 @@ Thanks to the modular design, header and footer builders are a thing of the past
 = Modular structure =
 You can move, show or hide all WordPress building blocks (modules) like title, content, category, keyword, post image and all other modules as you like, as well as customize the style and HTML code.
 
-= ZM Plugin Extension (optional) =
-To enable theme settings in dashboard and customizer you need ZM Plugin. ZM Plugin is a free WordPress extension to manage theme options and customizer settings of ZM theme framework based WordPress themes.
+= ZMPlugin Extension (optional) =
+To enable theme settings in dashboard and customizer you need ZMPlugin. ZMPlugin is a free WordPress extension to manage theme options and customizer settings of ZM-Theme-Framework based WordPress themes.
 
-After installing the theme and the extension ZM Plugin, you can use all theme features.
+After installing the theme and the extension ZMPlugin, you can use all theme features.
 
 The theme can also be used "standalone" in this version and/or programmatically customized via Child-Theme.
 
-<sup>*</sup> only available in combination with ZM Pro
+<sup>*</sup> only available in combination with ZMPro
 
 == Resources ==
 
 Learn more about ZM WordPress themes and plugins at [zmtheme.com](https://zmtheme.com/).
 
-If you have any questions or need help, visit the [support page](https://zmtheme.com/support/).
+If you have any questions or need help, visit the [documentation page](https://zmtheme.com/documentation/).
 
 You can also find us on [Github](https://github.com/zuestmedia/)!
 
@@ -54,7 +54,7 @@ Yes, the ZMT Modular theme is free of charge forever, and always will be.
 
 = Is there an extension? =
 
-Yes, there is a free extenstion ZM Plugin which includes additional features. Find out more on [zmtheme.com](https://zmtheme.com/).
+Yes, there is a free extenstion ZMPlugin which includes additional features. Find out more on [zmtheme.com](https://zmtheme.com/).
 
 = How to install this Theme from WordPress? =
 
@@ -67,6 +67,9 @@ Go to Dashboard >> Appearance >> Themes >> Add New >> Upload Theme.
 Select the previously downloaded Theme-Zip-File and click "Install now".
 
 == Changelog ==
+
+= 1.0.4 =
+* Update: Tested up to: 6.1
 
 = 1.0.3 =
 * Update: readme and style css

@@ -8,17 +8,17 @@ class theme {
 
     $this->displayname = __( 'ZMT Modular', 'zmt-modular' );
 
-    $this->version = '1.0.3';
+    $this->version = '1.0.4';
 
     $this->framework = 'zm-uikit';
 
     $this->css_type = 'default';
 
-    $this->css = '/assets/css/uikit.zmt-modular.min.css';//Version 3.15.1
-    $this->css_rtl = '/assets/css/uikit.zmt-modular-rtl.min.css';//Version 3.15.1
+    $this->css = '/assets/css/uikit.zmt-modular.min.css';
+    $this->css_rtl = '/assets/css/uikit.zmt-modular-rtl.min.css';
 
-    $this->js = '/assets/js/uikit.min.js';//Version 3.15.1
-    $this->icons = '/assets/js/uikit-icons.min.js';//Version 3.15.1
+    $this->js = '/assets/js/uikit.min.js';
+    $this->icons = '/assets/js/uikit-icons.min.js';
 
     $this->js_array = array(
       array(
