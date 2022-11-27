@@ -2,6 +2,7 @@
 /**
  * Header file for ZM Themes.
  */
+ defined( 'ABSPATH' ) or die( 'No script kiddies please!' );
 
 global $zmtheme;
 

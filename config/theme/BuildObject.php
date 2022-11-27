@@ -18,8 +18,9 @@ class BuildObject {
     * use Build::newClass to dynamically overwrite default classes
     * default result: $this->theme = new theme();
     */
-    $this->theme =  Build::newClass( $n->getClass('theme') );
+    $this->theme =           Build::newClass( $n->getClass('theme') );
     $this->startercontent =  Build::newClass( $n->getClass('startercontent') );
+    $this->textstrings =     Build::newClass( $n->getClass('textstrings') );
 
 
 

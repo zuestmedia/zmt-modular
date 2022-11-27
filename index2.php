@@ -1,46 +1,38 @@
 <?php
 /**
- * The main template file
- * more static editable version
- */
+	* The main template file
+	* more static editable version
+	*/
+	defined( 'ABSPATH' ) or die( 'No script kiddies please!' );
 
-get_header();
+	get_header();
 
 
-echo $zmtheme[ 'archive__archivecontainer' ]->getModuleStart();
+	echo $zmtheme[ 'archive__archivecontainer' ]->getModuleStart();
 
-	echo $zmtheme[ 'archive__archivetitle' ]->getModule();
+		echo $zmtheme[ 'archive__archivetitle' ]->getModule();
 
-	echo $zmtheme[ 'archive__archivedescription' ]->getModule();
+		echo $zmtheme[ 'archive__archivedescription' ]->getModule();
 
-	echo $zmtheme[ 'archive__articlelistcontainer' ]->getModuleStart();
+		echo $zmtheme[ 'archive__articlelistcontainer' ]->getModuleStart();
 
-		if ( have_posts() ) {
-			//$i = 0;
-			while ( have_posts() ) {
+			if ( have_posts() ) {
 
-				/* -- old separator --
-				$i++;
+				while ( have_posts() ) {
 
-				if ( $i > 1 ) {
+					the_post();
 
-					echo $zmtheme[ 'posts__separator' ]->getModule();
+					echo $zmtheme[ 'posts__template' ]->getTemplate();
 
-				}*/
-
-				the_post();
-
-				echo $zmtheme[ 'posts__template' ]->getTemplate();
+				}
 
 			}
 
-		}
+			echo $zmtheme[ 'archive__pagination' ]->getModule();
 
-		echo $zmtheme[ 'archive__pagination' ]->getModule();
+		echo $zmtheme[ 'archive__articlelistcontainer' ]->getModuleEnd();
 
-	echo $zmtheme[ 'archive__articlelistcontainer' ]->getModuleEnd();
-
-echo $zmtheme[ 'archive__archivecontainer' ]->getModuleEnd();
+	echo $zmtheme[ 'archive__archivecontainer' ]->getModuleEnd();
 
 
-get_footer();
+	get_footer();

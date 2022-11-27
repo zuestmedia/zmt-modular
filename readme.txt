@@ -68,6 +68,23 @@ Select the previously downloaded Theme-Zip-File and click "Install now".
 
 == Changelog ==
 
+= 1.0.5 =
+* New: ThemeJSON update theme.json programmatically with pallette and gradient colors
+* Update: other Screenshot.png
+* Update: style.css removed some styles
+* Update: UIKIT Version 3.15.14 (console errors and less/css var updates)
+* Update: Translations / only one textdomain
+* Update: CommentWalker
+* Remove: BlockPatterns.php
+* Update: Helpers.php - move functions to ZMPlugin
+* Update: TranslationStrings for submodule zmtheme-app
+* Update: MenuWalker Accessibility, added Subtitle (Menu Description)
+* Update: Only one Textdomain
+* Update: Accessibility & Textstrings (Translations) updated mod and config of Authorbox, Autorlink, CommentsCounter, CommentsForms, ...
+* Update: Accessibility CSSVars Colors
+* Update: Templates - offcanvas below menu, taxonomy cat moved to top
+
+
 = 1.0.4 =
 * Update: Tested up to: 6.1
 

@@ -22,34 +22,38 @@ class configCssVars extends \ZMT\Theme\DefaultConfig\configCssVars {
       //get original values if not overwriting all
       parent::colors();
 
-      $this->args['color_background_default'] = '#ffffff';
-      $this->args['color_background_gradient_default'] = '#ffffff';
+      $this->args['color_background_body'] = '#fcfcfa';
 
-      $this->args['color_background_muted'] = '#f8f8f8';
-      $this->args['color_background_gradient_muted'] = '#f8f8f8';
+      $this->args['color_background_default'] = '#eaedea';
+      $this->args['color_background_gradient_default'] = '#eaedea';
 
-      $this->args['color_background_primary'] = '#dd3f8f';
-      $this->args['color_background_gradient_primary'] = '#dd3f8f';
+      $this->args['color_background_muted'] = '#d5d6d2';
+      $this->args['color_background_gradient_muted'] = '#d5d6d2';
 
-      $this->args['color_background_secondary'] = '#4e6e8e';
-      $this->args['color_background_gradient_secondary'] = '#4e6e8e';
+      $this->args['color_background_primary'] = '#3a5199';
+      $this->args['color_background_gradient_primary'] = '#3a5199';
 
-      $this->args['color_text_emphasis'] = '#2c3e50';
-      $this->args['color_text_default'] = '#3a5169';
-      $this->args['color_text_muted'] = '#4e6e8e';
+      $this->args['color_background_secondary'] = '#2f2e33';
+      $this->args['color_background_gradient_secondary'] = '#2f2e33';
+
+      $this->args['color_text_emphasis'] = '#111111';
+      $this->args['color_text_default'] = '#222222';
+      $this->args['color_text_muted'] = '#444444';
       $this->args['color_text_inverse'] = '#ffffff';
 
-      $this->args['color_text_link'] = '#dd3f8f';
-      $this->args['color_text_link_hover'] = '#dd5a9c';
+      $this->args['color_text_link'] = '#3a5199';
+      $this->args['color_text_link_hover'] = '#294086';
 
-      $this->args['color_border'] = '#eaecef';
+      $this->args['color_border'] = '#999999';
 
-      $this->args['logo_color'] = '#dd3f8f';
-      $this->args['logo_color_hover'] = '#dd3f8f';
-      $this->args['logo_color_inverse'] = '#ffffff';
-      $this->args['logo_color_inverse_hover'] = '#ffffff';
+      $this->args['logo_color'] = '#111111';//global-emphasis-color
+      $this->args['logo_color_hover'] = '#111111';//global-emphasis-color
 
-      $this->args['navbar_dropdown_background'] = '#f8f8f8';
+      $this->args['navbar_item_color'] = '#444444';//global-muted-color
+      $this->args['navbar_item_color_hover'] = '#222222';//global-color
+      $this->args['navbar_item_color_active_onclick'] = '#111111';//global-emphasis-color
+
+      $this->args['navbar_dropdown_background'] = '#fcfcfa';//color_background_body
 
     }
 
@@ -60,18 +64,32 @@ class configCssVars extends \ZMT\Theme\DefaultConfig\configCssVars {
     protected function colors_dark() {
       $this->colors();
 
-      $this->args['color_background_default'] = '#3C2E47';
-      $this->args['color_background_gradient_default'] = '#3C2E47';
+      $this->args['color_background_body'] = '#111111';
 
-      $this->args['color_background_muted'] = '#32263B';
-      $this->args['color_background_gradient_muted'] = '#32263B';
+      $this->args['color_background_default'] = '#222222';
+      $this->args['color_background_gradient_default'] = '#222222';
+
+      $this->args['color_background_muted'] = '#444444';
+      $this->args['color_background_gradient_muted'] = '#444444';
 
       $this->args['color_text_emphasis'] = '#ffffff';
       $this->args['color_text_default'] = '#eeedef';
-      $this->args['color_text_muted'] = '#eeedef';
+      $this->args['color_text_muted'] = '#e3e3e3';
       $this->args['color_text_inverse'] = '#ffffff';
 
-      $this->args['navbar_dropdown_background'] = '#32263B';
+      $this->args['color_text_link'] = '#eeedef';
+      $this->args['color_text_link_hover'] = '#ffffff';
+
+      $this->args['color_border'] = '#999999';
+
+      $this->args['logo_color'] = '#ffffff';//global-emphasis-color
+      $this->args['logo_color_hover'] = '#ffffff';//global-emphasis-color
+
+      $this->args['navbar_item_color'] = '#e3e3e3';//global-muted-color
+      $this->args['navbar_item_color_hover'] = '#eeedef';//global-color
+      $this->args['navbar_item_color_active_onclick'] = '#ffffff';//global-emphasis-color
+
+      $this->args['navbar_dropdown_background'] = '#111111';
 
     }
     protected function body() {
@@ -89,8 +107,10 @@ class configCssVars extends \ZMT\Theme\DefaultConfig\configCssVars {
     }
     protected function navbar() {
       parent::navbar();
-      $this->args['navbar_fontfamily'] = 'Trebuchet MS, sans-serif';
-      $this->args['navbar_fontsize'] = '18px';
+      $this->args['navbar_fontfamily'] = 'Arial, sans-serif';
+      $this->args['navbar_fontsize'] = '15px';
+      $this->args['navbar_fontweight'] = '600';
+      $this->args['navbar_text_transform'] = 'uppercase';
     }
 
 

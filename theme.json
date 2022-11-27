@@ -28,107 +28,18 @@
             "link": true,
             "palette": [
                 {
-                    "name": "Default Color",
-                    "slug": "default",
-                    "color": "var(--color_background_default, #ffffff)"
-                },
-                {
-                    "name": "Default Gradient Color",
-                    "slug": "default-gradient",
-                    "color": "var(--color_background_gradient_default, #ffffff)"
-                },
-                {
-                    "name": "Muted Color",
-                    "slug": "muted",
-                    "color": "var(--color_background_muted, #f8f8f8)"
-                },
-                {
-                    "name": "Muted Gradient Color",
-                    "slug": "muted-gradient",
-                    "color": "var(--color_background_gradient_muted, #f8f8f8)"
-                },
-                {
-                    "name": "Primary Color",
-                    "slug": "primary",
-                    "color": "var(--color_background_primary, #dd3f8f)"
-                },
-                {
-                    "name": "Primary Gradient Color",
-                    "slug": "primary-gradient",
-                    "color": "var(--color_background_gradient_primary, #dd3f8f)"
-                },
-                {
-                    "name": "Secondary Color",
-                    "slug": "secondary",
-                    "color": "var(--color_background_secondary, #4e6e8e)"
-                },
-                {
-                    "name": "Secondary Gradient Color",
-                    "slug": "secondary-gradient",
-                    "color": "var(--color_background_gradient_secondary, #4e6e8e)"
-                },
-                {
-                    "name": "Emphasis Text Color",
-                    "slug": "emphasis-text",
-                    "color": "var(--color_text_emphasis, #2c3e50)"
-                },
-                {
-                    "name": "Default Text Color",
-                    "slug": "default-text",
-                    "color": "var(--color_text_default, #3a5169)"
-                },
-                {
-                    "name": "Muted Text Color",
-                    "slug": "muted-text",
-                    "color": "var(--color_text_muted, #4e6e8e)"
-                },
-                {
-                    "name": "Inverse Text Color",
-                    "slug": "inverse-text",
-                    "color": "rgba( var(--color_text_inverse, 255, 255, 255), 1 )"
-                },
-                {
-                    "name": "Success Color",
-                    "slug": "success",
-                    "color": "var(--color_background_success, #32d296)"
-                },
-                {
-                    "name": "Warning Color",
-                    "slug": "warning",
-                    "color": "var(--color_background_warning, #faa05a)"
-                },
-                {
-                    "name": "Danger Color",
-                    "slug": "danger",
-                    "color": "var(--color_background_danger, #f0506e)"
-                },
-                {
-                    "name": "Border Color",
-                    "slug": "border",
-                    "color": "var(--color_border, #eaecef)"
+                    "name": "Colors are added programmatically via ThemeJSON",
+                    "slug": "dummy",
+                    "color": "white"
                 }
             ],
             "gradients": [
                 {
-                    "slug": "gradient_default",
-                    "gradient": "linear-gradient(var(--color_background_gradient_deg_default, 0deg),var(--color_background_default, #ffffff) var(--color_background_gradient_colstop_default, 0%),var(--color_background_gradient_default, #ffffff) var(--color_background_gradient_colstop2_default, 0%))",
-                    "name": "Default Gradient"
-                },
-                {
-                    "slug": "gradient_muted",
-                    "gradient": "linear-gradient(var(--color_background_gradient_deg_muted, 0deg),var(--color_background_muted, #f8f8f8) var(--color_background_gradient_colstop_muted, 0%),var(--color_background_gradient_muted, #f8f8f8) var(--color_background_gradient_colstop2_muted, 0%))",
-                    "name": "Muted Gradient"
-                },
-                {
-                    "slug": "gradient_primary",
-                    "gradient": "linear-gradient(var(--color_background_gradient_deg_primary, 0deg),var(--color_background_primary, #dd3f8f) var(--color_background_gradient_colstop_primary, 0%),var(--color_background_gradient_primary, #dd3f8f) var(--color_background_gradient_colstop2_primary, 0%))",
-                    "name": "Primary Gradient"
-                },
-                {
-                    "slug": "gradient_secondary",
-                    "gradient": "linear-gradient(var(--color_background_gradient_deg_secondary, 0deg),var(--color_background_secondary, #4e6e8e) var(--color_background_gradient_colstop_secondary, 0%),var(--color_background_gradient_secondary, #4e6e8e) var(--color_background_gradient_colstop2_secondary, 0%))",
-                    "name": "Secondary Gradient"
+                    "name": "Gradients are added programmatically via ThemeJSON",
+                    "slug": "gradient_dummy",
+                    "gradient": "linear-gradient(var(--color_background_gradient_deg_default, 0deg),var(--color_background_default, #ffffff) var(--color_background_gradient_colstop_default, 0%),var(--color_background_gradient_default, #ffffff) var(--color_background_gradient_colstop2_default, 0%))"
                 }
+
             ]
         }
     }

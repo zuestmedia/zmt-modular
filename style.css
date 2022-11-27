@@ -5,9 +5,9 @@ Author: ZuestMedia
 Author URI: https://zuestmedia.com/
 Text Domain: zmt-modular
 Domain Path: /languages
-Version: 1.0.4
+Version: 1.0.5
 Description: ZMT Modular is a lightweight, fast and fully customizable WordPress theme based on the ZM-Theme-Framework. This theme combines the new modern features of Gutenberg Block Editor respectively concepts from Full Site Editing (FSE) with the proven classic WordPress theme structure. For a quick start, import a preconfigured starter design directly from the Design-Explorer and get started right away. Use the Customizer to define global settings like colors, fonts, etc. and customize every part of your website. Thanks to the modular design, header and footer builders are a thing of the past. With the template editor (Pro) or by using a child theme you can easily create as many sections as you need in the header, center or footer area and arrange them as you need.
-Tags: blog, custom-logo, e-commerce, rtl-language-support, grid-layout, one-column, two-columns, custom-background, custom-colors, custom-header, custom-menu, featured-image-header, featured-images, flexible-header, full-width-template, sticky-post, theme-options, threaded-comments, translation-ready, accessibility-ready, wide-blocks, footer-widgets, portfolio, left-sidebar, right-sidebar
+Tags: accessibility-ready, blog, custom-logo, e-commerce, rtl-language-support, grid-layout, one-column, two-columns, custom-background, custom-colors, custom-header, custom-menu, featured-image-header, featured-images, flexible-header, full-width-template, sticky-post, theme-options, threaded-comments, translation-ready, wide-blocks, footer-widgets, portfolio, left-sidebar, right-sidebar
 Requires at least: 4.7
 Tested up to: 6.1
 Requires PHP: 7.0
@@ -26,11 +26,10 @@ ZMUPDAPI: zm
   2. wp-blocks margin
   3. wp-block optimizations
   4. offcanvas_toggle rotation
-  5. uk section overlap
-  6. box-shadow-bottom
-  7. Background: Gradient & SkewY (Diagonal) with css-vars!!
+  5. -
+  6. -
+  7. -
   8. Must Use: display settings hide on small medium large
-  9. Must Use: width 100% on viewport-height & vertical align via flex
 
 ----------------------------------------------------------------------------- */
 /* 0. WordPress Core
@@ -144,7 +143,11 @@ a img.aligncenter {
 }
 
 .sticky{
-  /*adds additional style to sticky articles --> solve via post_class filter! */
+  /* adds additional style to sticky articles --> solve via post_class filter! */
+}
+
+.bypostauthor{
+  /* commentstyle from postauthor */
 }
 
 #cancel-comment-reply-link{
@@ -258,97 +261,6 @@ a img.aligncenter {
     -ms-transition: transform 0.5s ease;
     -o-transition: transform 0.5s ease;
     transition: transform 0.5s ease;
-}
-
-/* -------------------------------------------------------------------------- */
-/*	7. Background: Gradient & SkewY (Diagonal) with css-vars!!
-/* -------------------------------------------------------------------------- */
-
-.zmgradient{
-  position: relative;
-  background-color:unset;
-  z-index:1;
-  /*overflow: hidden;*/
-}
-.zmgradient::after{
-  content:"";
-  z-index:-1;
-  position: absolute;
-  top: 0;
-  right: 0;
-  left: 0;
-  bottom: 0;
-}
-
-/**
-  * adds background color (or via pseudo element)
-  * if has uk-flex; use background color! but has no skewy then!
-  * with skewy --> use after pseudo (note: flex verhindert before und after)
-  * card & button --> muted is default !
-  */
-.uk-section-default.zmgradient::after,
-.uk-tile-default.zmgradient::after,
-.uk-background-default.zmgradient::after,
-.uk-section-default.uk-flex.zmgradient {
-  background: linear-gradient(
-    var(--color_background_gradient_deg_default, 0deg),
-    var(--color_background_default, #ffffff)
-    var(--color_background_gradient_colstop_default, 0%),
-    var(--color_background_gradient_default, #ffffff)
-    var(--color_background_gradient_colstop2_default, 0%)
-  );
-}
-.uk-section-primary.zmgradient::after,
-.uk-card-primary.zmgradient::after,
-.uk-button-primary.zmgradient::after,
-.uk-tile-primary.zmgradient::after,
-.uk-background-primary.zmgradient::after,
-.uk-section-primary.uk-flex.zmgradient{
-  background: linear-gradient(
-    var(--color_background_gradient_deg_primary, 0deg),
-    var(--color_background_primary, #dd3f8f)
-    var(--color_background_gradient_colstop_primary, 0%),
-    var(--color_background_gradient_primary, #dd3f8f)
-    var(--color_background_gradient_colstop2_primary, 0%)
-    );
-}
-.uk-section-secondary.zmgradient::after,
-.uk-card-secondary.zmgradient::after,
-.uk-button-secondary.zmgradient::after,
-.uk-tile-secondary.zmgradient::after,
-.uk-background-secondary.zmgradient::after,
-.uk-section-secondary.uk-flex.zmgradient{
-  background: linear-gradient(
-    var(--color_background_gradient_deg_secondary, 0deg),
-    var(--color_background_secondary, #4e6e8e)
-    var(--color_background_gradient_colstop_secondary, 0%),
-    var(--color_background_gradient_secondary, #4e6e8e)
-    var(--color_background_gradient_colstop2_secondary, 0%)
-    );
-}
-.uk-section-muted.zmgradient::after,
-.uk-card-default.zmgradient::after,
-.uk-button-default.zmgradient::after,
-.uk-tile-muted.zmgradient::after,
-.uk-background-muted.zmgradient::after,
-.uk-section-muted.uk-flex.zmgradient{
-  background: linear-gradient(
-    var(--color_background_gradient_deg_muted, 0deg),
-    var(--color_background_muted, #f8f8f8)
-    var(--color_background_gradient_colstop_muted, 0%),
-    var(--color_background_gradient_muted, #f8f8f8)
-    var(--color_background_gradient_colstop2_muted, 0%)
-    );
-}
-
-.zm-background-skewy-default:after{
-  transform: skewY(var(--background_skewy_default, 11deg));
-}
-.zm-background-skewy-primary:after{
-  transform: skewY(var(--background_skewy_primary, 5deg));
-}
-.zm-background-skewy-secondary:after{
-  transform: skewY(var(--background_skewy_secondary, 18deg));
 }
 
 /* -------------------------------------------------------------------------- */

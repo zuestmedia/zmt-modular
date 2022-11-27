@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ZMT Modular\n"
-"POT-Creation-Date: 2022-10-22 16:49+0200\n"
-"PO-Revision-Date: 2022-10-22 16:49+0200\n"
+"POT-Creation-Date: 2022-11-24 14:42+0100\n"
+"PO-Revision-Date: 2022-11-24 14:42+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: de\n"
@@ -10,13 +10,209 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.1.1\n"
+"X-Generator: Poedit 3.2\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-KeywordsList: __\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: .git\n"
 "X-Poedit-SearchPathExcluded-1: app\n"
 
+#: config/theme/textstrings.php:17
+msgid "Download ZMPlugin"
+msgstr "ZM Plugin herunterladen"
+
+#: config/theme/textstrings.php:18
+msgid ""
+"To enable theme settings in Dashboard and Customizer you need ZMPlugin. "
+"ZMPlugin is a free WordPress extension to manage theme options and "
+"customizer settings of ZM-Theme-Framework based WordPress Themes."
+msgstr ""
+"Um Theme-Einstellungen im Dashboard und Customizer zu aktivieren, benötigen "
+"Sie ZMPlugin. ZMPlugin ist eine kostenlose WordPress-Erweiterung zur "
+"Verwaltung von Theme-Optionen und Customizer-Einstellungen von ZM-Theme-"
+"Framework-basierten WordPress-Themes."
+
+#: config/theme/textstrings.php:21
+msgid "Skip to content"
+msgstr "Zum Inhalt springen"
+
+#: config/theme/textstrings.php:22
+msgid "Warning: Versions are not consistent!"
+msgstr "Warnung: Die Versionen sind nicht übereinstimmend!"
+
+#: config/theme/textstrings.php:25
+msgid "Author: "
+msgstr "Autor: "
+
+#: config/theme/textstrings.php:28
+msgid "Number of comments: "
+msgstr "Anzahl Kommentare: "
+
+#: config/theme/textstrings.php:29
+msgid "no comments"
+msgstr "keine Kommentare"
+
+#: config/theme/textstrings.php:30
+#, php-format
+msgid "%s comment"
+msgstr "%s Kommentar"
+
+#: config/theme/textstrings.php:31
+#, php-format
+msgid "%s comments"
+msgstr "%s Kommentare"
+
+#: config/theme/textstrings.php:34
+msgid "Comments"
+msgstr "Kommentare"
+
+#: config/theme/textstrings.php:35
+msgid "says"
+msgstr "sagt"
+
+#: config/theme/textstrings.php:36
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s um %2$s Uhr"
+
+#: config/theme/textstrings.php:37
+msgid "Your comment is awaiting moderation."
+msgstr "Ihr Kommentar wartet auf die Freischaltung."
+
+#: config/theme/textstrings.php:38
+msgid ""
+"Your comment is awaiting moderation. This is a preview, your comment will be "
+"visible after it has been approved."
+msgstr ""
+"Ihr Kommentar wartet auf die Freischaltung. Dies ist eine Vorschau, ihr "
+"Kommentar wird sichtbar, nachdem er genehmigt wurde."
+
+#: config/theme/textstrings.php:42
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#: config/theme/textstrings.php:45
+msgid "Comments navigation"
+msgstr "Kommentar Navigation"
+
+#: config/theme/textstrings.php:47 config/theme/textstrings.php:69
+msgid "Posts navigation"
+msgstr "Beiträge Navigation"
+
+#: config/theme/textstrings.php:51
+msgid "Previous"
+msgstr "Vorherige Seite"
+
+#: config/theme/textstrings.php:52
+msgid "Next"
+msgstr "Nächste Seite"
+
+#: config/theme/textstrings.php:55
+msgid "Post date: "
+msgstr "Beitrags Datum: "
+
+#: config/theme/textstrings.php:58
+msgid "404 - Page Not Found"
+msgstr "Fehler 404 - Die Seite wurde nicht gefunden"
+
+#: config/theme/textstrings.php:59
+#, php-format
+msgid ""
+"The page you were looking for could not be found. It might have been "
+"removed, renamed, or does not exist anymore. Start again from %s or use the "
+"searchform to find what you are looking for."
+msgstr ""
+"Die von Ihnen gesuchte Seite konnte nicht gefunden werden. Sie wurde "
+"möglicherweise entfernt, umbenannt oder existiert nicht mehr. Starten Sie "
+"erneut von der %s aus oder verwenden Sie das Suchformular, um zu finden, was "
+"Sie suchen."
+
+#: config/theme/textstrings.php:60
+msgid "home"
+msgstr "Startseite"
+
+#: config/theme/textstrings.php:63
+msgid "Post navigation: "
+msgstr "Beitrags Navigation: "
+
+#: config/theme/textstrings.php:64
+msgid "Continue Reading: "
+msgstr "Weiterlesen: "
+
+#: config/theme/textstrings.php:65
+msgid "Previous page"
+msgstr "Vorherige Seite"
+
+#: config/theme/textstrings.php:66
+msgid "Next page"
+msgstr "Nächste Seite"
+
+#: config/theme/textstrings.php:72
+msgid "Main Menu"
+msgstr "Hauptmenü"
+
+#: config/theme/textstrings.php:75
+msgid "Search"
+msgstr "Suchen"
+
+#: config/theme/textstrings.php:76
+msgid "Close search form"
+msgstr "Suche schliessen"
+
+#: config/theme/textstrings.php:79
+msgid "Open Menu"
+msgstr "Menü öffnen"
+
+#: config/theme/textstrings.php:82
+msgid "Close Menu"
+msgstr "Menü schliessen"
+
+#: config/theme/textstrings.php:85
+msgid "Read More"
+msgstr "Weiterlesen"
+
+#: config/theme/textstrings.php:88
+msgid "Blog"
+msgstr "Blog"
+
+#: config/theme/textstrings.php:89
+#, php-format
+msgid "Search Results for \"%s\""
+msgstr "Suchergebnisse für \"%s\""
+
 #: config/theme/theme.php:9
 msgid "ZMT Modular"
 msgstr "ZMT Modular (Deutsch)"
+
+#~ msgid "written by"
+#~ msgstr "verfasst von"
+
+#~ msgid "having"
+#~ msgstr "hat"
+
+#~ msgid "Comments are closed."
+#~ msgstr "Die Kommentarfunktion ist deaktiviert."
+
+#~ msgid "Published on"
+#~ msgstr "Publiziert am"
+
+#~ msgid "ThisThemeName"
+#~ msgstr "ThisThemeName"
+
+#~ msgid "Built with ZMTheme"
+#~ msgstr "Built with ZMTheme"
+
+#~ msgid "Taxonomy"
+#~ msgstr "Taxonomie"
+
+#~ msgid "Category"
+#~ msgstr "Kategorie"
+
+#~ msgid "Tag"
+#~ msgstr "Schlagwort"
+
+#~ msgid "in"
+#~ msgstr "in"
+
+#~ msgid "tagged with"
+#~ msgstr "mit Schlagwort"
