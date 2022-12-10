@@ -68,6 +68,9 @@ Select the previously downloaded Theme-Zip-File and click "Install now".
 
 == Changelog ==
 
+= 1.0.8 =
+* Fix: Escaping LATEST possible before output in app/modules (getModule())
+
 = 1.0.7 =
 * Fix: escape functions added/updated CommentWalker, ThemeJSON, modCommentsCounter, modCommentsList
 * Removed: Skewy
