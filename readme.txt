@@ -68,6 +68,11 @@ Select the previously downloaded Theme-Zip-File and click "Install now".
 
 == Changelog ==
 
+= 1.0.9 =
+* Removed: style.css Custom Column Break for Blocks on small screen
+* Fix: ThemeJSON Gradient Color mix-up fixed
+* Fix: Escaping modErrorpage -> $text_html corrected
+
 = 1.0.8 =
 * Fix: Escaping LATEST possible before output in app/modules (getModule())
 
