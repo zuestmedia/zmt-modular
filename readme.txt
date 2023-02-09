@@ -10,7 +10,7 @@ ZMT Modular is a lightweight, fast and fully customizable WordPress theme based 
 
 == Description ==
 
-[ZMT Modular](https://zmtheme.com/) is a lightweight, fast and fully customizable WordPress theme based on the ZM-Theme-Framework.
+[ZMT Modular](https://zuestmedia.com/themes/) is a lightweight, fast and fully customizable WordPress theme based on the ZM-Theme-Framework.
 
 This theme combines the new modern features of Gutenberg Block Editor respectively concepts from Full Site Editing (FSE) with the proven classic WordPress theme structure.
 
@@ -40,9 +40,9 @@ The theme can also be used "standalone" in this version and/or programmatically 
 
 == Resources ==
 
-Learn more about ZM WordPress themes and plugins at [zmtheme.com](https://zmtheme.com/).
+Learn more about ZM WordPress themes and plugins at [zuestmedia.com](https://zuestmedia.com/).
 
-If you have any questions or need help, visit the [documentation page](https://zmtheme.com/documentation/).
+If you have any questions or need help, visit the [documentation page](https://zuestmedia.com/help/).
 
 You can also find us on [Github](https://github.com/zuestmedia/)!
 
@@ -54,7 +54,7 @@ Yes, the ZMT Modular theme is free of charge forever, and always will be.
 
 = Is there an extension? =
 
-Yes, there is a free extenstion ZMPlugin which includes additional features. Find out more on [zmtheme.com](https://zmtheme.com/).
+Yes, there is a free extenstion ZMPlugin which includes additional features. Find out more [here](https://zuestmedia.com/plugins/).
 
 = How to install this Theme from WordPress? =
 
@@ -67,6 +67,14 @@ Go to Dashboard >> Appearance >> Themes >> Add New >> Upload Theme.
 Select the previously downloaded Theme-Zip-File and click "Install now".
 
 == Changelog ==
+
+= 1.0.10 =
+* Update: Removed accesibility-ready tag
+* Update: Footer Credentials
+* Update: readme.txt link to zuestmedia.com
+* Update UIKIT CSS & JS to 3.15.24
+* Update: CI/CD Routines
+* Fix: Minor Bug fixes
 
 = 1.0.9 =
 * Removed: style.css Custom Column Break for Blocks on small screen
@@ -215,5 +223,5 @@ License: Apache License Version 2.0
 Source: https://fonts.google.com/icons
 
 == Copyright ==
-ZMT Modular WordPress Theme, Copyright 2022 zmtheme.com
+ZMT Modular WordPress Theme, Copyright 2023 zuestmedia.com
 ZMT Modular is distributed under the terms of the GNU GPL
