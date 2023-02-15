@@ -7,6 +7,25 @@ use ZMT\Theme\Build;
 
 class BuildObject  extends \ZMT\Theme\ExtendTemplates {
 
+  public $globals;
+  public $extensions;
+  
+  public $header;
+  public $center;
+  public $footer;
+
+  public $archive;
+  public $posts;
+  public $single;
+  public $page;
+  
+  public $nav;
+  public $offcanvas;
+  
+  public $comments;
+  
+  public $errorpage;
+
   function __construct(){
 
   /**

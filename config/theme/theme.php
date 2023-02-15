@@ -4,11 +4,29 @@ namespace ZMT\Theme\Config\Theme;
 
 class theme {
 
+  public $displayname;
+  public $version;
+  public $framework;
+
+  public $css_type;
+
+  public $css;
+  public $css_rtl;
+
+  public $js;
+  public $icons;
+  public $js_array;
+
+  public $head_modules;
+
+  public $menu_active_class;
+  public $menu_parent_class;
+
   function __construct(){
 
     $this->displayname = __( 'ZMT Modular', 'zmt-modular' );
 
-    $this->version = '1.0.10';
+    $this->version = '1.0.11';
 
     $this->framework = 'zm-uikit';
 

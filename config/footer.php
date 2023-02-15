@@ -4,6 +4,8 @@ namespace ZMT\Theme\Config;
 
 class footer extends \ZMT\Theme\Templates\_footer {
 
+  public $section_html__1;
+
   function __construct(){
 
     parent::__construct();

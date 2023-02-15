@@ -4,6 +4,8 @@ namespace ZMT\Theme\Config\Theme;
 
 class startercontent {
 
+  public $content;
+
   function __construct(){
 
     $this->content = array(

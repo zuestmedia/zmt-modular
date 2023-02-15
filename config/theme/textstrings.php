@@ -11,6 +11,61 @@ class textstrings {
     *    based on ZM-Theme-Framework and keeping submodules up-to-date
     */
 
+    public $DownloadZMPlugin;
+    public $Toenablethemesettings;
+    
+    public $Skiptocontent;
+    public $WarningVersionsare;
+    
+    public $AuthorLink_label;
+    
+    public $CommentsCounter_label;
+    public $nocomments;
+    public $n_comment;
+    public $n_comments;
+    
+    public $Comments;
+    public $says;
+    public $s_at_s;
+    public $Yourcommentisawaitin;
+    public $Yourcommentisawaitin_long;
+    
+    public $Edit;
+    
+    public $CommentsPagination_label;
+    
+    public $Pagination_label;
+    
+    public $Previous;
+    public $Next;
+    
+    public $Date_label;
+    
+    public $PageNotFound;
+    public $PageNotFound_long;
+    public $Home;
+    
+    public $LinkPages_label;
+    public $ContinueReading;
+    public $Previouspage;
+    public $Nextpage;
+    
+    public $LastNextArticleLink_label;
+    
+    public $Menu_default_label;
+    
+    public $Search_label;
+    public $Search_label_close;
+    
+    public $NavToggle_label;
+    
+    public $OffcanvasContainer_label_close;
+    
+    public $ReadMore;
+    
+    public $Blog;
+    public $SearchResultsfor_n;
+
     function __construct(){
 
       //Init.php

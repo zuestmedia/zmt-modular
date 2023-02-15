@@ -7,6 +7,10 @@ use ZMT\Theme\Build;
 
 class BuildObject {
 
+  public $theme;
+  public $startercontent;
+  public $textstrings;
+
   function __construct(){
 
   /**

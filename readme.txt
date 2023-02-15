@@ -68,6 +68,9 @@ Select the previously downloaded Theme-Zip-File and click "Install now".
 
 == Changelog ==
 
+= 1.0.11 =
+* Update: prepared for PHP 9; defined all dynamic properties in classes
+
 = 1.0.10 =
 * Update: Removed accesibility-ready tag
 * Update: Footer Credentials
