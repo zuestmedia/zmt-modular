@@ -68,6 +68,9 @@ Select the previously downloaded Theme-Zip-File and click "Install now".
 
 == Changelog ==
 
+= 1.0.13 =
+* Fix: load child textdomain if is child theme 
+
 = 1.0.12 =
 * Fix: Order of modules
 
