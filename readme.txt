@@ -68,6 +68,13 @@ Select the previously downloaded Theme-Zip-File and click "Install now".
 
 == Changelog ==
 
+= 1.0.14 =
+* Update: UIKIT CSS & JS to 3.16.17
+* Fix: default_config nav and navbar components updated due to uikit update to 3.16.17 (uk-navbar-item & dropdown)
+* Fix: View status check conditions added
+* Fix: Navbar parent icon
+* Fix: Config check is_object added
+
 = 1.0.13 =
 * Fix: load child textdomain if is child theme 
 
