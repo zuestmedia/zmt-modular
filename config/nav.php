@@ -6,7 +6,7 @@ class nav extends \ZMT\Theme\Templates\_nav {
 
   public $menu__1;
   public $search__1;
-  public $offcanvas_toggle__1;
+  public $menu__2;
 
   function __construct(){
 
@@ -16,7 +16,7 @@ class nav extends \ZMT\Theme\Templates\_nav {
 
     $this->search__1  = new \ZMT\Theme\Config\Modules\configNavSearch( 'navbar_search_visible_desktop', 2,'navcontainer' );
 
-    $this->offcanvas_toggle__1  = new \ZMT\Theme\Config\Modules\configNavToggle( 'navbar_toggle_hidden_desktop', 3,'navcontainer' );
+    $this->menu__2  = new \ZMT\Theme\Config\Modules\configNavMenu( 'navbar_dropdown_nav_hidden_desktop', 3,'navcontainer' );
 
   }
 

@@ -68,6 +68,14 @@ Select the previously downloaded Theme-Zip-File and click "Install now".
 
 == Changelog ==
 
+= 1.0.15 =
+* New: NavbarDropdownNav as default mobile menu
+* Fix: uk-nav- / uk-navbar- / uk-drop-  -parent-icon
+* Fix: ArticleContainer singular (div) and posts (article)
+* Update: default_templates _offcanvas (remove modules due to new mobile menu), _singular (articlecontainer), _posts (articlecontainer)
+* Update: config -> modules NavMenu, NavSearch
+* Update: config template nav
+ 
 = 1.0.14 =
 * Update: UIKIT CSS & JS to 3.16.17
 * Fix: default_config nav and navbar components updated due to uikit update to 3.16.17 (uk-navbar-item & dropdown)
