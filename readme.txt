@@ -68,6 +68,11 @@ Select the previously downloaded Theme-Zip-File and click "Install now".
 
 == Changelog ==
 
+= 1.0.16 =
+* New: AJAX Posts Loading in default WP Query and Custom Queries in section and module
+* Update: zmtheme.js moved to app folder and new localize functionality for js_array scripts in main and child theme
+* Update: textstrings for ajax loading button
+
 = 1.0.15 =
 * New: NavbarDropdownNav as default mobile menu
 * Fix: uk-nav- / uk-navbar- / uk-drop-  -parent-icon
