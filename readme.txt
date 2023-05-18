@@ -68,6 +68,10 @@ Select the previously downloaded Theme-Zip-File and click "Install now".
 
 == Changelog ==
 
+= 1.0.17 =
+* Fix: small fixes on AJAX Posts Loading Script and fallback nav only shown in archives
+* Remove: pagination module for archives is now optionally available but not by default activated (replaced by ajax posts loading)
+
 = 1.0.16 =
 * New: AJAX Posts Loading in default WP Query and Custom Queries in section and module
 * Update: zmtheme.js moved to app folder and new localize functionality for js_array scripts in main and child theme
