@@ -68,6 +68,9 @@ Select the previously downloaded Theme-Zip-File and click "Install now".
 
 == Changelog ==
 
+= 1.0.18 =
+* Update: View / display settings updated -> "hide if" display conditions added
+
 = 1.0.17 =
 * Fix: small fixes on AJAX Posts Loading Script and fallback nav only shown in archives
 * Remove: pagination module for archives is now optionally available but not by default activated (replaced by ajax posts loading)
