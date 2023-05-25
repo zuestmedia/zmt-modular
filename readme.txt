@@ -68,6 +68,13 @@ Select the previously downloaded Theme-Zip-File and click "Install now".
 
 == Changelog ==
 
+= 1.0.19 =
+* Update UIKIT CSS & JS to  3.16.19
+* Update: added accesibility-ready tag
+* Update: translations de_CH & de_AT added
+* Update: View / display settings updated -> loggedin: as single condition valid for all pages / if has other conditions than loggedin, loggedin valid only together with other conditions 
+* Remove: section_offcanvas is not anymore set by default
+
 = 1.0.18 =
 * Update: View / display settings updated -> "hide if" display conditions added
 
