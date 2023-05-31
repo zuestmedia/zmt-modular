@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ZMT Modular\n"
-"POT-Creation-Date: 2023-05-25 17:19+0200\n"
-"PO-Revision-Date: 2023-05-25 17:55+0200\n"
+"POT-Creation-Date: 2023-05-31 19:34+0200\n"
+"PO-Revision-Date: 2023-05-31 19:34+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: de_CH\n"
@@ -16,6 +16,10 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: .git\n"
 "X-Poedit-SearchPathExcluded-1: app\n"
+
+#: config/modules/configSectionNewHTML.php:13
+msgid "Opens in new tab"
+msgstr "Öffnet in neuem Tab"
 
 #: config/theme/textstrings.php:75
 msgid "Download ZMPlugin"

@@ -1,7 +1,7 @@
 === ZMT Modular ===
 Contributors: zuestmedia
 Requires at least: 4.7
-Tested up to: 6.1
+Tested up to: 6.2
 Requires PHP: 7.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -67,6 +67,15 @@ Go to Dashboard >> Appearance >> Themes >> Add New >> Upload Theme.
 Select the previously downloaded Theme-Zip-File and click "Install now".
 
 == Changelog ==
+
+= 1.0.20 =
+* Update: Accesibility fix configSectionNewHTML - update date() and add external link note
+* Update: Translations
+* Update: Accesibility fix Render.php - added aria-hidden to ajax loading button icon 
+* Update: Accesibility fix modMenu - add "Open menu" to dropdown navbar_dropdown_nav
+* Update: Accessiblity fix zmtheme.js - adds aria-hidden to uk-close svg icon
+* Update: Accesibility fixes in configNavMenu, configNavSearch, configNavToggle & configOffcanvasContainer
+* Update: use pagination by default, ajax posts loading is an option
 
 = 1.0.19 =
 * Update UIKIT CSS & JS to  3.16.19
