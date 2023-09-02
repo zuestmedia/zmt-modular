@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ZMT Modular\n"
-"POT-Creation-Date: 2023-05-31 19:34+0200\n"
-"PO-Revision-Date: 2023-05-31 19:34+0200\n"
+"POT-Creation-Date: 2023-09-02 16:09+0200\n"
+"PO-Revision-Date: 2023-09-02 16:09+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: de_CH\n"
@@ -17,81 +17,91 @@ msgstr ""
 "X-Poedit-SearchPathExcluded-0: .git\n"
 "X-Poedit-SearchPathExcluded-1: app\n"
 
-#: config/modules/configSectionNewHTML.php:13
+#: config/modules/configSectionNewHTML.php:11
 msgid "Opens in new tab"
 msgstr "Öffnet in neuem Tab"
 
-#: config/theme/textstrings.php:75
+#: config/theme/textstrings.php:78
 msgid "Download ZMPlugin"
 msgstr "ZM Plugin herunterladen"
 
-#: config/theme/textstrings.php:76
+#: config/theme/textstrings.php:79
 msgid ""
 "To enable theme settings in Dashboard and Customizer you need ZMPlugin. "
 "ZMPlugin is a free WordPress extension to manage theme options and "
-"customizer settings of ZM-Theme-Framework based WordPress Themes."
+"customizer settings of ZuestMedia WordPress Themes."
 msgstr ""
 "Um Theme-Einstellungen im Dashboard und Customizer zu aktivieren, benötigen "
 "Sie ZMPlugin. ZMPlugin ist eine kostenlose WordPress-Erweiterung zur "
-"Verwaltung von Theme-Optionen und Customizer-Einstellungen von ZM-Theme-"
-"Framework-basierten WordPress-Themes."
+"Verwaltung von Theme-Optionen und Customizer-Einstellungen von ZuestMedia "
+"WordPress Themes."
 
-#: config/theme/textstrings.php:79
+#: config/theme/textstrings.php:82
 msgid "Skip to content"
 msgstr "Zum Inhalt springen"
 
-#: config/theme/textstrings.php:80
+#: config/theme/textstrings.php:83
 msgid "Warning: Versions are not consistent!"
 msgstr "Warnung: Die Versionen sind nicht übereinstimmend!"
 
-#: config/theme/textstrings.php:83
+#: config/theme/textstrings.php:86
 msgid "Load more posts"
 msgstr "Mehr Beiträge laden"
 
-#: config/theme/textstrings.php:84
+#: config/theme/textstrings.php:87
 msgid "Loading..."
 msgstr "Lädt..."
 
-#: config/theme/textstrings.php:87
+#: config/theme/textstrings.php:90
 msgid "Author: "
 msgstr "Autor: "
 
-#: config/theme/textstrings.php:90
+#: config/theme/textstrings.php:93
 msgid "Number of comments: "
 msgstr "Anzahl Kommentare: "
 
-#: config/theme/textstrings.php:91
+#: config/theme/textstrings.php:94
 msgid "no comments"
 msgstr "keine Kommentare"
 
-#: config/theme/textstrings.php:92
+#: config/theme/textstrings.php:95
 #, php-format
 msgid "%s comment"
 msgstr "%s Kommentar"
 
-#: config/theme/textstrings.php:93
+#: config/theme/textstrings.php:96
 #, php-format
 msgid "%s comments"
 msgstr "%s Kommentare"
 
-#: config/theme/textstrings.php:96
+#: config/theme/textstrings.php:99
+#, php-format
+msgid "By using the comment function, you hereby accept our %1$s."
+msgstr ""
+"Bei Verwendung der Kommentarfunktion akzeptieren Sie hiermit unsere %1$s."
+
+#: config/theme/textstrings.php:100
+msgid "Privacy Policy"
+msgstr "Datenschutzerklärung"
+
+#: config/theme/textstrings.php:103
 msgid "Comments"
 msgstr "Kommentare"
 
-#: config/theme/textstrings.php:97
+#: config/theme/textstrings.php:104
 msgid "says"
 msgstr "sagt"
 
-#: config/theme/textstrings.php:98
+#: config/theme/textstrings.php:105
 #, php-format
 msgid "%1$s at %2$s"
 msgstr "%1$s um %2$s Uhr"
 
-#: config/theme/textstrings.php:99
+#: config/theme/textstrings.php:106
 msgid "Your comment is awaiting moderation."
 msgstr "Ihr Kommentar wartet auf die Freischaltung."
 
-#: config/theme/textstrings.php:100
+#: config/theme/textstrings.php:107
 msgid ""
 "Your comment is awaiting moderation. This is a preview, your comment will be "
 "visible after it has been approved."
@@ -99,35 +109,35 @@ msgstr ""
 "Ihr Kommentar wartet auf die Freischaltung. Dies ist eine Vorschau, ihr "
 "Kommentar wird sichtbar, nachdem er genehmigt wurde."
 
-#: config/theme/textstrings.php:104
+#: config/theme/textstrings.php:111
 msgid "Edit"
 msgstr "Bearbeiten"
 
-#: config/theme/textstrings.php:107
+#: config/theme/textstrings.php:114
 msgid "Comments navigation"
 msgstr "Kommentar Navigation"
 
-#: config/theme/textstrings.php:109 config/theme/textstrings.php:131
+#: config/theme/textstrings.php:116 config/theme/textstrings.php:138
 msgid "Posts navigation"
 msgstr "Beiträge Navigation"
 
-#: config/theme/textstrings.php:113
+#: config/theme/textstrings.php:120
 msgid "Previous"
 msgstr "Vorherige Seite"
 
-#: config/theme/textstrings.php:114
+#: config/theme/textstrings.php:121
 msgid "Next"
 msgstr "Nächste Seite"
 
-#: config/theme/textstrings.php:117
+#: config/theme/textstrings.php:124
 msgid "Post date: "
 msgstr "Beitrags Datum: "
 
-#: config/theme/textstrings.php:120
+#: config/theme/textstrings.php:127
 msgid "404 - Page Not Found"
 msgstr "Fehler 404 - Die Seite wurde nicht gefunden"
 
-#: config/theme/textstrings.php:121
+#: config/theme/textstrings.php:128
 #, php-format
 msgid ""
 "The page you were looking for could not be found. It might have been "
@@ -139,55 +149,55 @@ msgstr ""
 "erneut von der %s aus oder verwenden Sie das Suchformular, um zu finden, was "
 "Sie suchen."
 
-#: config/theme/textstrings.php:122
+#: config/theme/textstrings.php:129
 msgid "home"
 msgstr "Startseite"
 
-#: config/theme/textstrings.php:125
+#: config/theme/textstrings.php:132
 msgid "Post navigation: "
 msgstr "Beitrags Navigation: "
 
-#: config/theme/textstrings.php:126
+#: config/theme/textstrings.php:133
 msgid "Continue Reading: "
 msgstr "Weiterlesen: "
 
-#: config/theme/textstrings.php:127
+#: config/theme/textstrings.php:134
 msgid "Previous page"
 msgstr "Vorherige Seite"
 
-#: config/theme/textstrings.php:128
+#: config/theme/textstrings.php:135
 msgid "Next page"
 msgstr "Nächste Seite"
 
-#: config/theme/textstrings.php:134
+#: config/theme/textstrings.php:141
 msgid "Main Menu"
 msgstr "Hauptmenü"
 
-#: config/theme/textstrings.php:137
+#: config/theme/textstrings.php:144
 msgid "Search"
 msgstr "Suchen"
 
-#: config/theme/textstrings.php:138
+#: config/theme/textstrings.php:145
 msgid "Close search form"
 msgstr "Suche schliessen"
 
-#: config/theme/textstrings.php:141
+#: config/theme/textstrings.php:148
 msgid "Open Menu"
 msgstr "Menü öffnen"
 
-#: config/theme/textstrings.php:144
+#: config/theme/textstrings.php:151
 msgid "Close Menu"
 msgstr "Menü schliessen"
 
-#: config/theme/textstrings.php:147
+#: config/theme/textstrings.php:154
 msgid "Read More"
 msgstr "Weiterlesen"
 
-#: config/theme/textstrings.php:150
+#: config/theme/textstrings.php:157
 msgid "Blog"
 msgstr "Blog"
 
-#: config/theme/textstrings.php:151
+#: config/theme/textstrings.php:158
 #, php-format
 msgid "Search Results for \"%s\""
 msgstr "Suchergebnisse für \"%s\""
@@ -195,6 +205,15 @@ msgstr "Suchergebnisse für \"%s\""
 #: config/theme/theme.php:27
 msgid "ZMT Modular"
 msgstr "ZMT Modular (Deutsch)"
+
+#, php-format
+#~ msgid ""
+#~ "By using this form, you agree to the storage and use of your data by this "
+#~ "website. You can learn more about this in our %1$s."
+#~ msgstr ""
+#~ "Mit der Nutzung dieses Formulars erklären Sie sich mit der Speicherung "
+#~ "und Nutzung Ihrer Daten durch diese Website einverstanden. Mehr dazu "
+#~ "erfahren Sie in unserer %1$s."
 
 #~ msgid "written by"
 #~ msgstr "verfasst von"

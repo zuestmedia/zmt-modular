@@ -8,7 +8,7 @@ class textstrings {
     * -- Connects translation strings to app folder without textdomain --
     *    1. Because "app" is a git Submodule
     *    2. it's not possible to change TextDomain in submodule for each Theme
-    *    based on ZM-Theme-Framework and keeping submodules up-to-date
+    *    based on ZuestMedia-Theme-Framework and keeping submodules up-to-date
     */
 
     public $DownloadZMPlugin;
@@ -26,6 +26,9 @@ class textstrings {
     public $nocomments;
     public $n_comment;
     public $n_comments;
+
+    public $comment_privacy_policy;
+    public $comment_privacy_policy_url_title;
     
     public $Comments;
     public $says;
@@ -73,7 +76,7 @@ class textstrings {
 
       //Init.php
       $this->DownloadZMPlugin = __( 'Download ZMPlugin', 'zmt-modular' );
-      $this->Toenablethemesettings = __( 'To enable theme settings in Dashboard and Customizer you need ZMPlugin. ZMPlugin is a free WordPress extension to manage theme options and customizer settings of ZM-Theme-Framework based WordPress Themes.', 'zmt-modular' );
+      $this->Toenablethemesettings = __( 'To enable theme settings in Dashboard and Customizer you need ZMPlugin. ZMPlugin is a free WordPress extension to manage theme options and customizer settings of ZuestMedia WordPress Themes.', 'zmt-modular' );
 
       //Theme.php
       $this->Skiptocontent =      __( 'Skip to content', 'zmt-modular' );
@@ -91,6 +94,10 @@ class textstrings {
       $this->nocomments =      __( 'no comments', 'zmt-modular' );
       $this->n_comment =       __( '%s comment', 'zmt-modular' );
       $this->n_comments =      __( '%s comments', 'zmt-modular' );
+
+      //modCommentsForm
+      $this->comment_privacy_policy =           __( 'By using the comment function, you hereby accept our %1$s.', 'zmt-modular' );
+      $this->comment_privacy_policy_url_title = __( 'Privacy Policy', 'zmt-modular' );
 
       //modCommentsList
       $this->Comments =                  __( 'Comments', 'zmt-modular' );

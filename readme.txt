@@ -1,16 +1,16 @@
 === ZMT Modular ===
 Contributors: zuestmedia
 Requires at least: 4.7
-Tested up to: 6.2
+Tested up to: 6.3.1
 Requires PHP: 7.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-ZMT Modular is a lightweight, fast and fully customizable WordPress theme based on the ZM-Theme-Framework.
+ZMT Modular is a lightweight, fast and fully customizable ZuestMedia WordPress Theme.
 
 == Description ==
 
-[ZMT Modular](https://zuestmedia.com/themes/) is a lightweight, fast and fully customizable WordPress theme based on the ZM-Theme-Framework.
+[ZMT Modular](https://zuestmedia.com/themes/) is a lightweight, fast and fully customizable ZuestMedia WordPress Theme.
 
 This theme combines the new modern features of Gutenberg Block Editor respectively concepts from Full Site Editing (FSE) with the proven classic WordPress theme structure.
 
@@ -30,7 +30,7 @@ Thanks to the modular design, header and footer builders are a thing of the past
 You can move, show or hide all WordPress building blocks (modules) like title, content, category, keyword, post image and all other modules as you like, as well as customize the style and HTML code.
 
 = ZMPlugin Extension (optional) =
-To enable theme settings in dashboard and customizer you need ZMPlugin. ZMPlugin is a free WordPress extension to manage theme options and customizer settings of ZM-Theme-Framework based WordPress themes.
+To enable theme settings in dashboard and customizer you need ZMPlugin. ZMPlugin is a free WordPress extension to manage theme options and customizer settings of ZuestMedia WordPress Theme.
 
 After installing the theme and the extension ZMPlugin, you can use all theme features.
 
@@ -40,7 +40,7 @@ The theme can also be used "standalone" in this version and/or programmatically 
 
 == Resources ==
 
-Learn more about ZM WordPress themes and plugins at [zuestmedia.com](https://zuestmedia.com/).
+Learn more about ZuestMedia WordPress Themes and Plugins at [zuestmedia.com](https://zuestmedia.com/).
 
 If you have any questions or need help, visit the [documentation page](https://zuestmedia.com/help/).
 
@@ -67,6 +67,13 @@ Go to Dashboard >> Appearance >> Themes >> Add New >> Upload Theme.
 Select the previously downloaded Theme-Zip-File and click "Install now".
 
 == Changelog ==
+
+= 1.0.21 =
+* New: data privacy checkbox to comments form, if a page is set in settings/privacy
+* New: Comments privacy checkbox textstrings & translations
+* Update UIKIT CSS & JS to  3.16.26
+* Update: Use WP-Theme-Update API by default w ZMPro
+* Fix: In navbar use uk-button-link not text
 
 = 1.0.20 =
 * Update: Accesibility fix configSectionNewHTML - update date() and add external link note
