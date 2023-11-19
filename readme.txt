@@ -1,7 +1,7 @@
 === ZMT Modular ===
 Contributors: zuestmedia
 Requires at least: 4.7
-Tested up to: 6.3.1
+Tested up to: 6.4
 Requires PHP: 7.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -67,6 +67,10 @@ Go to Dashboard >> Appearance >> Themes >> Add New >> Upload Theme.
 Select the previously downloaded Theme-Zip-File and click "Install now".
 
 == Changelog ==
+
+= 1.0.22 =
+* Update: Tested up to WordPress 6.4
+* Update: UIKIT CSS & JS to 3.17.10
 
 = 1.0.21 =
 * New: data privacy checkbox to comments form, if a page is set in settings/privacy
