@@ -1,4 +1,4 @@
-=== ZMT Modular ===
+=== Modular ===
 Contributors: zuestmedia
 Requires at least: 4.7
 Tested up to: 6.4
@@ -6,11 +6,11 @@ Requires PHP: 7.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-ZMT Modular is a lightweight, fast and fully customizable ZuestMedia WordPress Theme.
+The Modular Theme is a lightweight, fast and fully customizable ZuestMedia WordPress Theme.
 
 == Description ==
 
-[ZMT Modular](https://zuestmedia.com/themes/) is a lightweight, fast and fully customizable ZuestMedia WordPress Theme.
+The [Modular Theme](https://zuestmedia.com/modular/) is a lightweight, fast and fully customizable ZuestMedia WordPress Theme.
 
 This theme combines the new modern features of Gutenberg Block Editor respectively concepts from Full Site Editing (FSE) with the proven classic WordPress theme structure.
 
@@ -18,31 +18,31 @@ This theme combines the new modern features of Gutenberg Block Editor respective
 With Block Templates you can create dynamic or static content with the Gutenberg Editor and embed it at any position on the website using the Template Editor. How about a featured image header or a custom footer menu? All no problem with blocks directly in Gutenberg Editor!
 
 = Design Explorer =
-For a quick start, import a preconfigured starter design directly from the Design-Explorer and get started right away.
+For a quick start, import a preconfigured [starter design](https://design.zuestmedia.com/) directly from the Design-Explorer and get started right away.
 
 = Customizer =
 Use the Customizer to define global settings like colors, fonts, etc. and customize every part of your website.
 
 = Template Editor <sup>*</sup> =
-Thanks to the modular design, header and footer builders are a thing of the past. With the template editor (Pro) or by using a child theme you can easily create as many sections as you need in the header, center or footer area and arrange them as you like and fill them with modules. Or you can create any section with blocks as well.
+Thanks to the modular design, header and footer builders are a thing of the past. With the template editor or by using a child theme you can easily create as many sections as you need in the header, center or footer area and arrange them as you like and fill them with modules. Or you can create any section with blocks as well.
 
 = Modular structure =
 You can move, show or hide all WordPress building blocks (modules) like title, content, category, keyword, post image and all other modules as you like, as well as customize the style and HTML code.
 
-= ZMPlugin Extension (optional) =
-To enable theme settings in dashboard and customizer you need ZMPlugin. ZMPlugin is a free WordPress extension to manage theme options and customizer settings of ZuestMedia WordPress Theme.
+= ZMPlugin theme companion plugin (optional) =
+To enable theme settings in dashboard and customizer you need ZMPlugin. ZMPlugin is a free WordPress plugin to manage theme options and customizer settings of ZuestMedia WordPress Themes.
 
-After installing the theme and the extension ZMPlugin, you can use all theme features.
+After installing the theme and ZMPlugin, you can use all theme features.
 
 The theme can also be used "standalone" in this version and/or programmatically customized via Child-Theme.
 
-<sup>*</sup> only available in combination with ZMPro
+<sup>*</sup> only available in combination with [ZMPro](https://zuestmedia.com/pro/)
 
 == Resources ==
 
-Learn more about ZuestMedia WordPress Themes and Plugins at [zuestmedia.com](https://zuestmedia.com/).
+Find out more about ZuestMedia WordPress [Themes](https://zuestmedia.com/themes/) and [Plugins](https://zuestmedia.com/plugins/).
 
-If you have any questions or need help, visit the [documentation page](https://zuestmedia.com/help/).
+If you have any questions or need help, visit the [documentation page](https://zuestmedia.com/docs/).
 
 You can also find us on [Github](https://github.com/zuestmedia/)!
 
@@ -52,9 +52,9 @@ You can also find us on [Github](https://github.com/zuestmedia/)!
 
 Yes, the ZMT Modular theme is free of charge forever, and always will be.
 
-= Is there an extension? =
+= Is there a companion plugin? =
 
-Yes, there is a free extenstion ZMPlugin which includes additional features. Find out more [here](https://zuestmedia.com/plugins/).
+Yes, there is a free companion plugin which includes additional features. Download now [ZMPlugin](https://zuestmedia.com/zmplugin/).
 
 = How to install this Theme from WordPress? =
 
@@ -67,6 +67,10 @@ Go to Dashboard >> Appearance >> Themes >> Add New >> Upload Theme.
 Select the previously downloaded Theme-Zip-File and click "Install now".
 
 == Changelog ==
+
+= 1.0.23 =
+* Update: UIKIT CSS & JS to 3.18.3
+* Update: readme description
 
 = 1.0.22 =
 * Update: Tested up to WordPress 6.4
