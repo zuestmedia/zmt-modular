@@ -68,6 +68,10 @@ Select the previously downloaded Theme-Zip-File and click "Install now".
 
 == Changelog ==
 
+= 1.0.24 =
+* Fix: UIKIT update need new classes uk-navbar-container uk-navbar-transparent in navbar container to calculate new drop position
+* Fix: UIKIT Dark & Light CSS
+
 = 1.0.23 =
 * Update: UIKIT CSS & JS to 3.18.3
 * Update: readme description
