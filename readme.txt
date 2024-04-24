@@ -1,7 +1,7 @@
 === Modular ===
 Contributors: zuestmedia
 Requires at least: 4.7
-Tested up to: 6.4
+Tested up to: 6.5
 Requires PHP: 7.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -67,6 +67,10 @@ Go to Dashboard >> Appearance >> Themes >> Add New >> Upload Theme.
 Select the previously downloaded Theme-Zip-File and click "Install now".
 
 == Changelog ==
+
+= 1.0.25 =
+* Update: UIKIT CSS & JS to 3.20.5
+* New: Theme setting added to asign template modules by page_ids (view.php)
 
 = 1.0.24 =
 * Fix: UIKIT update need new classes uk-navbar-container uk-navbar-transparent in navbar container to calculate new drop position
