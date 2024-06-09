@@ -26,7 +26,7 @@ class theme {
 
     $this->displayname = __( 'ZMT Modular', 'zmt-modular' );
 
-    $this->version = '1.0.25';
+    $this->version = '1.0.26';
 
     $this->framework = 'zm-uikit';
 
@@ -44,7 +44,7 @@ class theme {
         'js_url' => '/app/js/zmtheme.js',//is in app folder of zmtheme!
         'js_deps' => array('jquery','zm-uikit-js','zm-uikit-icons'),
         //'js_ver' => '1.0.0',//get auto version!
-        'js_in_footer' => NULL,
+        'js_in_footer' => array('strategy' => 'defer'),
         'js_localize' => array(//adds by default ajax admin-php url and nonce if has varname!!! see in theme.php
           'var_name' => 'zmt_global_vars',
           /*'translations' => array(//optional add translations

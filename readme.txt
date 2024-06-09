@@ -68,6 +68,15 @@ Select the previously downloaded Theme-Zip-File and click "Install now".
 
 == Changelog ==
 
+= 1.0.26 =
+* Update: UIKIT CSS & JS to 3.21.5
+* Update: UIKIT Js & Icons not dependent of jQuery anymore
+* Update: zmtheme.js with strategy defer
+* New: Child Theme Css and Js/Icons options added to use via theme config file
+* Update: uikit 3.1.25 update of uk-nav-search classes
+* Fix: #[\AllowDynamicProperties] where necessary
+* Test: added zmtheme2.js and AjaxPostsLoader2.php test file to start tests without jquery
+
 = 1.0.25 =
 * Update: UIKIT CSS & JS to 3.20.5
 * New: Theme setting added to asign template modules by page_ids (view.php)
