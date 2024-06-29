@@ -68,6 +68,11 @@ Select the previously downloaded Theme-Zip-File and click "Install now".
 
 == Changelog ==
 
+= 1.0.27 =
+* Update: UIKIT Default Button style
+* Fix: automatically load child themes version for child style.css and child js scripts comming with child theme in config/theme/theme.php
+* Fix: PHP 8.1 strpos & str_replace fixed "Passing null to parameter"
+
 = 1.0.26 =
 * Update: UIKIT CSS & JS to 3.21.5
 * Update: UIKIT Js & Icons not dependent of jQuery anymore
