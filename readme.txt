@@ -1,7 +1,7 @@
 === Modular ===
 Contributors: zuestmedia
 Requires at least: 4.7
-Tested up to: 6.5
+Tested up to: 6.6
 Requires PHP: 7.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -67,6 +67,9 @@ Go to Dashboard >> Appearance >> Themes >> Add New >> Upload Theme.
 Select the previously downloaded Theme-Zip-File and click "Install now".
 
 == Changelog ==
+
+= 1.0.28 =
+* Update: Tested up to WP 6.6
 
 = 1.0.27 =
 * Update: UIKIT Default Button style
