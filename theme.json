@@ -1,46 +1,33 @@
 {
-    "version": 2,
+    "version": 3,
     "settings": {
 
         "typography": {
-                    "lineHeight": true
+            "lineHeight": true
         },
 
         "layout": {
-                    "contentSize": "1200px",
-                    "wideSize": "90%"
+            "contentSize": "1200px",
+            "wideSize": "90%"
         },
 
         "border": {
-                    "color": true,
-                    "radius": true,
-                    "style": true,
-                    "width": true
+            "color": true,
+            "radius": true,
+            "style": true,
+            "width": true
         },
 
         "spacing": {
-                    "blockGap": true,
-                    "padding": true,
-                    "margin": true
+            "blockGap": true,
+            "padding": true,
+            "margin": true
         },
 
         "color": {
             "link": true,
-            "palette": [
-                {
-                    "name": "Colors are added programmatically via ThemeJSON",
-                    "slug": "dummy",
-                    "color": "white"
-                }
-            ],
-            "gradients": [
-                {
-                    "name": "Gradients are added programmatically via ThemeJSON",
-                    "slug": "gradient_dummy",
-                    "gradient": "linear-gradient(var(--color_background_gradient_deg_default, 0deg),var(--color_background_default, #ffffff) var(--color_background_gradient_colstop_default, 0%),var(--color_background_gradient_default, #ffffff) var(--color_background_gradient_colstop2_default, 0%))"
-                }
-
-            ]
+            "palette": [],
+            "gradients": []
         }
     }
 }

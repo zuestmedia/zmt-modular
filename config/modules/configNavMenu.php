@@ -8,7 +8,7 @@ class configNavMenu extends \ZMT\Theme\DefaultConfig\configNavMenu {
 
     parent::navbar();
 
-    $this->args['module_class_navbar_item_pos'] = 'uk-navbar-center';
+    $this->args['module_class'] = 'zmnavitems uk-overflow-auto uk-margin-left';
 
     $this->args['module_class_visibility'] = array('zm-hidden-mobile', 'zm-hidden-tablet');
 

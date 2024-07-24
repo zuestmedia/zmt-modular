@@ -68,6 +68,16 @@ Select the previously downloaded Theme-Zip-File and click "Install now".
 
 == Changelog ==
 
+= 1.0.29 =
+* Update: theme.json to v3
+* Update: link hover effect in block-container 
+* Update: .pot file added
+* Update: translations
+* Update: remove uk-navbar-center in NavMenu main menu
+* Fix: Add uk-overflow-auto to NavMenu navbar, so no overlap on large menu
+* Fix: Gradient Background in Editor
+* Remove: index2 example version
+
 = 1.0.28 =
 * Update: Tested up to WP 6.6
 

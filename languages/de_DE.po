@@ -1,8 +1,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ZMT Modular\n"
-"POT-Creation-Date: 2023-09-02 16:08+0200\n"
-"PO-Revision-Date: 2023-09-02 16:09+0200\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/zmt-modular\n"
+"POT-Creation-Date: 2024-07-23T16:39:12+00:00\n"
+"PO-Revision-Date: 2024-07-24 12:25+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: de\n"
@@ -10,12 +11,60 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.3.1\n"
+"X-Generator: Poedit 3.4.4\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-KeywordsList: __\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: .git\n"
 "X-Poedit-SearchPathExcluded-1: app\n"
+
+#. Theme Name of the theme
+#: style.css
+msgid "Modular"
+msgstr "Modular"
+
+#. Theme URI of the theme
+#: style.css
+msgid "https://zuestmedia.com/modular/"
+msgstr "https://zuestmedia.ch/modular/"
+
+#. Description of the theme
+#: style.css
+msgid ""
+"The Modular Theme is a lightweight, fast and fully customizable ZuestMedia "
+"WordPress Theme. This theme combines the new modern features of Gutenberg "
+"Block Editor respectively concepts from Full Site Editing (FSE) with the "
+"proven classic WordPress theme structure. For a quick start, import a "
+"preconfigured starter design directly from the Design-Explorer and get "
+"started right away. Use the Customizer to define global settings like "
+"colors, fonts, etc. and customize every part of your website. Thanks to the "
+"modular design, header and footer builders are a thing of the past. With the "
+"template editor (Pro) or by using a child theme you can easily create as "
+"many sections as you need in the header, center or footer area and arrange "
+"them as you need."
+msgstr ""
+"Das Modular Theme ist ein schlankes, schnelles und vollständig anpassbares "
+"ZuestMedia WordPress Theme. Dieses Theme kombiniert die neuen modernen "
+"Features des Gutenberg Block Editors bzw. Konzepte aus dem Full Site Editing "
+"(FSE) mit der bewährten klassischen WordPress Theme-Struktur. Für einen "
+"schnellen Start importieren Sie ein vorkonfiguriertes Starter-Design direkt "
+"aus dem Design-Explorer und legen sofort los. Nutzen Sie den Customizer, um "
+"globale Einstellungen wie Farben, Schriftarten, etc. zu definieren und jeden "
+"Bereich Ihrer Website anzupassen. Dank des modularen Aufbaus gehören Header- "
+"und Footer-Builder der Vergangenheit an. Mit dem Vorlagen-Editor (Pro) oder "
+"einem Child-Theme können Sie im Header-, Center- oder Footer-Bereich so "
+"viele Sektionen erstellen, wie Sie benötigen, und diese nach Belieben "
+"anordnen."
+
+#. Author of the theme
+#: style.css
+msgid "ZuestMedia"
+msgstr "ZuestMedia"
+
+#. Author URI of the theme
+#: style.css
+msgid "https://zuestmedia.com/"
+msgstr "https://zuestmedia.ch/"
 
 #: config/modules/configSectionNewHTML.php:11
 msgid "Opens in new tab"
@@ -65,17 +114,14 @@ msgid "no comments"
 msgstr "keine Kommentare"
 
 #: config/theme/textstrings.php:95
-#, php-format
 msgid "%s comment"
 msgstr "%s Kommentar"
 
 #: config/theme/textstrings.php:96
-#, php-format
 msgid "%s comments"
 msgstr "%s Kommentare"
 
 #: config/theme/textstrings.php:99
-#, php-format
 msgid "By using the comment function, you hereby accept our %1$s."
 msgstr ""
 "Bei Verwendung der Kommentarfunktion akzeptieren Sie hiermit unsere %1$s."
@@ -93,7 +139,6 @@ msgid "says"
 msgstr "sagt"
 
 #: config/theme/textstrings.php:105
-#, php-format
 msgid "%1$s at %2$s"
 msgstr "%1$s um %2$s Uhr"
 
@@ -138,7 +183,6 @@ msgid "404 - Page Not Found"
 msgstr "Fehler 404 - Die Seite wurde nicht gefunden"
 
 #: config/theme/textstrings.php:128
-#, php-format
 msgid ""
 "The page you were looking for could not be found. It might have been "
 "removed, renamed, or does not exist anymore. Start again from %s or use the "
@@ -198,13 +242,16 @@ msgid "Blog"
 msgstr "Blog"
 
 #: config/theme/textstrings.php:158
-#, php-format
 msgid "Search Results for \"%s\""
 msgstr "Suchergebnisse für \"%s\""
 
 #: config/theme/theme.php:27
 msgid "ZMT Modular"
 msgstr "ZMT Modular (Deutsch)"
+
+#. Template Name of the theme
+msgid "Custom Template - Example"
+msgstr "Benutzerdefinierte Vorlage - Beispiel"
 
 #, php-format
 #~ msgid ""
