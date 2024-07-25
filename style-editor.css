@@ -9,36 +9,15 @@
 /* 0.  Block Editor WYSIWYG Optimizations
 -------------------------------------------------------------- */
 
-  /*
-  * add margin auto to block editor because of full site editing ready with theme.json
-  * if using theme.json, instead of add_theme_support for blocks, margin auto is removed
-  * now only in template view shoud be max with 100%
-  */
-
-/*. body = editor-styles-wrapper*/
+  /*body = editor-styles-wrapper*/
   body{
     padding:0;
   }
 
-  /* Main column width */
-  .wp-block {
-      /*max-width: var(--zm-wp-block-width);not working because css var is not set in backend without content area*/
-      /*max-width: 1200px;now setted via theme.json file!*/
-  }
-  /* disables div.wp-block default margins*/
-  div.wp-block {
-      /*margin-top:0;
-      margin-bottom:0;*/
-  }
-
-  /*adds margin to all child blocks of the content area*/
-  .is-root-container > div {
-    margin-top:40px;
-    /*margin-bottom:40px;*/
-  }
-  /*removes margin-top from first-child*/
-  .is-root-container > *:first-child {
-    margin-top:0;
+  /*default margin between blocks*/
+  .is-root-container > * {
+    margin-block-start: 20px;
+    margin-block-end: 0;
   }
 
   /* Width of "full-wide" blocks */
@@ -50,13 +29,4 @@
     .wp-block[data-align='wide'] {
         max-width: 90vw;
     }
-  }
-
-  /* font-wight */
-  .editor-post-title__input{
-    font-weight: inherit;
-  }
-
-  hr{
-    border-color:unset !important;
   }

@@ -5,7 +5,7 @@ Author: ZuestMedia
 Author URI: https://zuestmedia.com/
 Text Domain: zmt-modular
 Domain Path: /languages
-Version: 1.0.29
+Version: 1.1.0
 Description: The Modular Theme is a lightweight, fast and fully customizable ZuestMedia WordPress Theme. This theme combines the new modern features of Gutenberg Block Editor respectively concepts from Full Site Editing (FSE) with the proven classic WordPress theme structure. For a quick start, import a preconfigured starter design directly from the Design-Explorer and get started right away. Use the Customizer to define global settings like colors, fonts, etc. and customize every part of your website. Thanks to the modular design, header and footer builders are a thing of the past. With the template editor (Pro) or by using a child theme you can easily create as many sections as you need in the header, center or footer area and arrange them as you need.
 Tags: accessibility-ready, blog, custom-logo, e-commerce, rtl-language-support, grid-layout, one-column, two-columns, custom-background, custom-colors, custom-header, custom-menu, featured-image-header, featured-images, flexible-header, full-width-template, sticky-post, theme-options, threaded-comments, translation-ready, wide-blocks, footer-widgets, portfolio, left-sidebar, right-sidebar
 Requires at least: 4.7
@@ -25,11 +25,9 @@ ZMUPDAPI: wp
 	1. WP Blocks alignfull / alignwide
   2. wp-blocks margin
   3. wp-block optimizations
-  4. offcanvas_toggle rotation
-  5. -
-  6. -
-  7. -
-  8. Must Use: display settings hide on small medium large
+  4. Comments
+  5. Accessibility in Content
+  6. Must Use: display settings hide on small medium large
 
 ----------------------------------------------------------------------------- */
 /* 0. WordPress Core
@@ -150,23 +148,6 @@ a img.aligncenter {
   /* commentstyle from postauthor */
 }
 
-#cancel-comment-reply-link{
-  margin-left:10px;
-  font-size:1rem;
-}
-
-/* WordPress Content and Comments Links must be underlined */
-.zm-wp-block-container a,
-.uk-comment-body a {
-  text-decoration:underline;
-}
-.zm-wp-block-container a:hover:not(.wp-block-button__link),
-.uk-comment-body a:hover:not(.wp-block-button__link) {
-	transition: border 0.2s ease-in-out;
-	border-bottom:1px solid;
-	text-decoration:none;
-}
-
 /* -------------------------------------------------------------------------- */
 /*	1. WP Blocks alignfull / alignwide
     -- braucht variable von main container width
@@ -211,58 +192,64 @@ a img.aligncenter {
 /*	2. wp-blocks margin
 /* -------------------------------------------------------------------------- */
 
-.wp-block-post-content > div,
-.zm-wp-block-container > div {
-  margin-top:40px;
-  /*margin-bottom:40px;*/
-}
-.wp-block-post-content > *:first-child,
-.zm-wp-block-container > *:first-child {
-  margin-top:0;
-}
-.wp-block-column, .wp-block-column > div, .wp-block-columns > .block-core-columns{
-  margin:0 !important;
+.wp-block-post-content  > * ,
+.zm-wp-block-container > * {
+  margin-block-start: 20px;
+  margin-block-end: 0;
 }
 
 /* -------------------------------------------------------------------------- */
 /*	3. wp-block optimizations
 /* -------------------------------------------------------------------------- */
 
-  /* replaces inherit */
-  pre.wp-block-verse{
-    font-family: revert;
-  }
-
   /* align separator left by default not center */
   .wp-block-separator {
   	margin-left:0;
   	margin-right:0;
+    text-align:left;
+    padding-left:0;
   }
+  .wp-block-separator:before {
+    padding-left:0;
+  }  
   .wp-block-separator.aligncenter{
     margin-left:auto;
   	margin-right:auto;
+    text-align:center;
+  }
+  .wp-block-separator.aligncenter:before {
+    padding-left:2em;
   }
 
 /* -------------------------------------------------------------------------- */
-/*	4. offcanvas_toggle rotation
-    -- set class "zmrotate" to change via jquery in zmtheme.js
+/*	4. Comments
 /* -------------------------------------------------------------------------- */
 
-.zmrotated-45 {
-    -webkit-transform: rotate(45deg);
-    -moz-transform: rotate(45deg);
-    -o-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    transform: rotate(45deg);
-    -webkit-transition: transform 0.5s ease;
-    -moz-transition: transform 0.5s ease;
-    -ms-transition: transform 0.5s ease;
-    -o-transition: transform 0.5s ease;
-    transition: transform 0.5s ease;
+#cancel-comment-reply-link{
+  margin-left:10px;
+  font-size:1rem;
 }
 
 /* -------------------------------------------------------------------------- */
-/*	8. Must Use: display settings hide on small medium large
+/*	5. Accessibility in Content
+/* -------------------------------------------------------------------------- */
+
+/* WordPress Content and Comments Links must be underlined */
+.zm-wp-block-container a,
+.uk-comment-body a {
+  text-decoration:underline;
+}
+
+/* adds hover effect on links in paragraphs */
+.zm-wp-block-container p > a:hover,
+.uk-comment-body p > a:hover {
+	transition: border 0.2s ease-in-out;
+	border-bottom:1px solid;
+	text-decoration:none;
+}
+
+/* -------------------------------------------------------------------------- */
+/*	6. Must Use: display settings hide on small medium large
 /* -------------------------------------------------------------------------- */
 /* Phone landscape and bigger */
 @media (max-width: 639px) {

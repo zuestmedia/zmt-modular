@@ -68,6 +68,17 @@ Select the previously downloaded Theme-Zip-File and click "Install now".
 
 == Changelog ==
 
+= 1.1.0 =
+* Update: Version to 1.1
+* Update: screenshot.png
+* Update: Default container width is now 1200px like in blockeditor
+* Update: style.css & style-editor.css
+* Remove: AjaxPostsLoader2 and zmtheme2.js
+* Remove: rotating class & js
+* Remove: js social buttons script
+* Fix: in navsearch autofocus off is by default = 2 
+* Fix: Only default Menu is overflow auto
+
 = 1.0.29 =
 * Update: theme.json to v3
 * Update: link hover effect in block-container 
