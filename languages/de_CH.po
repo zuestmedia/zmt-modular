@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ZMT Modular\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/zmt-modular\n"
-"POT-Creation-Date: 2024-07-23T16:39:12+00:00\n"
-"PO-Revision-Date: 2024-07-24 12:25+0200\n"
+"POT-Creation-Date: 2024-07-28T15:07:56+00:00\n"
+"PO-Revision-Date: 2024-07-28 17:10+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: de_CH\n"
@@ -67,6 +67,10 @@ msgid "https://zuestmedia.com/"
 msgstr "https://zuestmedia.ch/"
 
 #: config/modules/configSectionNewHTML.php:11
+msgid "Powered by"
+msgstr "Powered by"
+
+#: config/modules/configSectionNewHTML.php:15
 msgid "Opens in new tab"
 msgstr "Öffnet in neuem Tab"
 

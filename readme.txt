@@ -68,6 +68,10 @@ Select the previously downloaded Theme-Zip-File and click "Install now".
 
 == Changelog ==
 
+= 1.1.1 =
+* Fix: Powered by section label added
+* Update: .pot file & translations
+
 = 1.1.0 =
 * Update: Version to 1.1
 * Update: screenshot.png

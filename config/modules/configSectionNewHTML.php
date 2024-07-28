@@ -4,7 +4,11 @@ namespace ZMT\Theme\Config\Modules;
 
 class configSectionNewHTML extends \ZMT\Theme\DefaultConfig\configSectionNewHTML {
 
+  public $com_label;
+
   protected function sections_powered() {
+
+    $this->com_label = __('Powered by', 'zmt-modular');
 
     parent::sections();
 
