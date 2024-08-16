@@ -68,6 +68,11 @@ Select the previously downloaded Theme-Zip-File and click "Install now".
 
 == Changelog ==
 
+= 1.1.2 =
+* Update: UIKIT to 3.21.9
+* Fix: view condition option "all single posttypes" added
+* Fix: remove margin from first block in editor
+
 = 1.1.1 =
 * Fix: Powered by section label added
 * Update: .pot file & translations
