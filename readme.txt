@@ -68,6 +68,12 @@ Select the previously downloaded Theme-Zip-File and click "Install now".
 
 == Changelog ==
 
+= 1.1.3 =
+* New: Margin Horizontal Settings in nav
+* Update: Nav Modules optimized
+* Update: UIKIT to 3.21.11
+* Removed: Padding in menu 0 and use gap instead
+
 = 1.1.2 =
 * Update: UIKIT to 3.21.9
 * Fix: view condition option "all single posttypes" added
