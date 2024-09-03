@@ -68,6 +68,10 @@ Select the previously downloaded Theme-Zip-File and click "Install now".
 
 == Changelog ==
 
+= 1.1.5 =
+* Fix: NavMenu Dropdown_Navbar_Nav_* inverted color 
+* Fix: Naming
+
 = 1.1.4 =
 * Fix: Navbar Search inverted color behavior
 * Fix: NavContainer & NavSidebar in navbar
