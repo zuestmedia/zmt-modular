@@ -68,6 +68,11 @@ Select the previously downloaded Theme-Zip-File and click "Install now".
 
 == Changelog ==
 
+= 1.1.6 =
+* Update: 404 Error Page Show/Hide Header & Footer Sections
+* Update: 404 Error Page add Sections Classes & Background Image Options
+* Fix: 404 Error Page Show/Hide Modules
+
 = 1.1.5 =
 * Fix: NavMenu Dropdown_Navbar_Nav_* inverted color 
 * Fix: Naming
