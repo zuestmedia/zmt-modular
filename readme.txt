@@ -68,6 +68,9 @@ Select the previously downloaded Theme-Zip-File and click "Install now".
 
 == Changelog ==
 
+= 1.1.7 =
+* Fix: Child-Theme CSS file loading logic
+
 = 1.1.6 =
 * Update: 404 Error Page Show/Hide Header & Footer Sections
 * Update: 404 Error Page add Sections Classes & Background Image Options
