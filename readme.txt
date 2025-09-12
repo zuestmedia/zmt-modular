@@ -1,7 +1,7 @@
 === Modular ===
 Contributors: zuestmedia
 Requires at least: 4.7
-Tested up to: 6.7
+Tested up to: 6.8
 Requires PHP: 7.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -67,6 +67,22 @@ Go to Dashboard >> Appearance >> Themes >> Add New >> Upload Theme.
 Select the previously downloaded Theme-Zip-File and click "Install now".
 
 == Changelog ==
+
+= 2.0.3 =
+* Fix: Move do_action 'after_setup_ZMTheme' after Theme Init Function is proceeded -> at end of initTheme()
+
+= 2.0.2 =
+* Update: Textstrings
+* Fix: Load Theme via default action 'after_setup_theme', if ZMPlugin is not installed. 1. Check if ZMPlugin is installed! 2. Check version of ZMPlugin! 3. Use the correct action 'zmplugin_last_action' -> theme needs different action to initialise, because zmplugin actions are not available if no zmplugin!
+* Fix: add_theme_support functions called directly with 'after_setup_theme' from Init.php
+
+= 2.0.1 =
+* Fix: Action loading order
+
+= 2.0.0 =
+* Update: tested up to 6.8
+* Update: CSS & JS Framework UIKIT 3.23.12 
+* Fix: _load_textdomain_just_in_time; now initialising at after_setup_theme
 
 = 1.1.8 =
 * Update: tested up to 6.7

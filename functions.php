@@ -6,7 +6,10 @@
   */
   defined( 'ABSPATH' ) or die( 'No script kiddies please!' );
 
-  zmStartUp();
+  /**
+   * Init Startup at after_setup_theme
+   */
+  add_action('after_setup_theme', 'zmStartUp');
 
   function zmStartUp(){
 

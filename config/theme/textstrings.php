@@ -76,7 +76,7 @@ class textstrings {
 
       //Init.php
       $this->DownloadZMPlugin = __( 'Download ZMPlugin', 'zmt-modular' );
-      $this->Toenablethemesettings = __( 'To enable theme settings in Dashboard and Customizer you need ZMPlugin. ZMPlugin is a free WordPress extension to manage theme options and customizer settings of ZuestMedia WordPress Themes.', 'zmt-modular' );
+      $this->Toenablethemesettings = __( 'To enable theme settings in Dashboard and Customizer you need the latest version of ZMPlugin. ZMPlugin is a free WordPress extension to manage theme options and customizer settings of ZuestMedia WordPress Themes.', 'zmt-modular' );
 
       //Theme.php
       $this->Skiptocontent =      __( 'Skip to content', 'zmt-modular' );
