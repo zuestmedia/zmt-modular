@@ -68,6 +68,9 @@ Select the previously downloaded Theme-Zip-File and click "Install now".
 
 == Changelog ==
 
+= 2.0.4 =
+* Fix: Add widgets_init im zmthemes modSidebar again and use action 'init' with prio 0 in zmplugin to start earlier
+
 = 2.0.3 =
 * Fix: Move do_action 'after_setup_ZMTheme' after Theme Init Function is proceeded -> at end of initTheme()
 
