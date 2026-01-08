@@ -1,7 +1,7 @@
 === Modular ===
 Contributors: zuestmedia
 Requires at least: 4.7
-Tested up to: 6.8
+Tested up to: 6.9
 Requires PHP: 7.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -67,6 +67,18 @@ Go to Dashboard >> Appearance >> Themes >> Add New >> Upload Theme.
 Select the previously downloaded Theme-Zip-File and click "Install now".
 
 == Changelog ==
+
+= 2.1.2 =
+* Fix: ZMTheme was not up to date
+
+= 2.1.1 =
+* Update: tested up to WP 6.9
+
+= 2.1.0 =
+* New: Delete options and theme_mod on action delete_theme
+* Update: ThemeImport moved from ZMPlugin to ZMTheme to auto-import styles in child themes
+* Update: Child Themes use now separate com_ settings in wp_options
+* Fix: Themes & Child Themes Display Name uses always style.css Name
 
 = 2.0.4 =
 * Fix: Add widgets_init im zmthemes modSidebar again and use action 'init' with prio 0 in zmplugin to start earlier
