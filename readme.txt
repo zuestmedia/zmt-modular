@@ -1,72 +1,100 @@
 === Modular ===
 Contributors: zuestmedia
 Requires at least: 4.7
-Tested up to: 6.9
+Tested up to: 7.1
 Requires PHP: 7.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-The Modular Theme is a lightweight, fast and fully customizable ZuestMedia WordPress Theme.
+Modular is a lightweight and flexible WordPress theme by ZuestMedia with customizable layouts and a modular theme structure.
 
 == Description ==
 
-The [Modular Theme](https://zuestmedia.com/modular/) is a lightweight, fast and fully customizable ZuestMedia WordPress Theme.
+Modular is a lightweight, fast and flexible WordPress theme by ZuestMedia.
 
-This theme combines the new modern features of Gutenberg Block Editor respectively concepts from Full Site Editing (FSE) with the proven classic WordPress theme structure.
+The theme combines the WordPress block editor with a proven classic theme architecture and a modular layout system. It is designed for websites that require flexible content structures, customizable layouts and extensive control over individual theme elements.
+
+Modular works as a standalone WordPress theme. For additional theme-specific settings, block templates, starter designs and integrations, it can be extended with the free ZMPlugin companion plugin.
+
+= ZMPlugin Theme Companion =
+
+ZMPlugin is the official companion plugin for ZuestMedia WordPress themes.
+
+When used with Modular, ZMPlugin adds additional theme settings and Customizer options as well as access to block templates, the Design Explorer and other theme-specific functionality.
+
+ZMPlugin is recommended but not required. Modular can also be used standalone and customized programmatically through a child theme.
 
 = Block Templates =
-With Block Templates you can create dynamic or static content with the Gutenberg Editor and embed it at any position on the website using the Template Editor. How about a featured image header or a custom footer menu? All no problem with blocks directly in Gutenberg Editor!
+
+Modular supports block-based templates for reusable static and dynamic content.
+
+Templates can be edited using the native WordPress block editor and provide a flexible way to create content sections that integrate with the theme.
 
 = Design Explorer =
-For a quick start, import a preconfigured [starter design](https://design.zuestmedia.com/) directly from the Design-Explorer and get started right away.
+
+When using ZMPlugin, the Design Explorer provides access to preconfigured starter designs that can be imported as a starting point for a new website.
 
 = Customizer =
-Use the Customizer to define global settings like colors, fonts, etc. and customize every part of your website.
 
-= Template Editor <sup>*</sup> =
-Thanks to the modular design, header and footer builders are a thing of the past. With the template editor or by using a child theme you can easily create as many sections as you need in the header, center or footer area and arrange them as you like and fill them with modules. Or you can create any section with blocks as well.
+Modular integrates with the WordPress Customizer for configuring the appearance of your website.
 
-= Modular structure =
-You can move, show or hide all WordPress building blocks (modules) like title, content, category, keyword, post image and all other modules as you like, as well as customize the style and HTML code.
+Additional theme-specific settings and Customizer options are available when using the ZMPlugin companion plugin.
 
-= ZMPlugin theme companion plugin (optional) =
-To enable theme settings in dashboard and customizer you need ZMPlugin. ZMPlugin is a free WordPress plugin to manage theme options and customizer settings of ZuestMedia WordPress Themes.
+= Modular Structure =
 
-After installing the theme and ZMPlugin, you can use all theme features.
+The modular structure is one of the core concepts of the Modular theme.
 
-The theme can also be used "standalone" in this version and/or programmatically customized via Child-Theme.
+Theme elements such as the title, content, featured image, categories and other components can be arranged, displayed or hidden depending on the selected layout and theme configuration.
 
-<sup>*</sup> only available in combination with [ZMPro](https://zuestmedia.com/pro/)
+This provides flexibility for creating different page, post and archive layouts while keeping the underlying theme structure consistent.
+
+Developers can further customize Modular using a child theme.
 
 == Resources ==
 
-Find out more about ZuestMedia WordPress [Themes](https://zuestmedia.com/themes/) and [Plugins](https://zuestmedia.com/plugins/).
+Learn more about Modular and other ZuestMedia WordPress themes.
 
-If you have any questions or need help, visit the [documentation page](https://zuestmedia.com/docs/).
+For documentation and help, visit the ZuestMedia documentation.
 
-You can also find us on [Github](https://github.com/zuestmedia/)!
+You can also find ZuestMedia on GitHub.
 
 == Frequently Asked Questions ==
 
-= Is ZMT Modular Free? =
+= Is Modular free? =
 
-Yes, the ZMT Modular theme is free of charge forever, and always will be.
+Yes. Modular is free and distributed under the GPLv2 or later license.
 
 = Is there a companion plugin? =
 
-Yes, there is a free companion plugin which includes additional features. Download now [ZMPlugin](https://zuestmedia.com/zmplugin/).
+Yes. ZMPlugin is the free official companion plugin for Modular and other supported ZuestMedia themes.
 
-= How to install this Theme from WordPress? =
+It adds additional theme settings, Customizer options, block templates, starter designs and other theme-specific functionality.
 
-Go to Dashboard >> Appearance >> Themes >> Add New.
-Enter "ZMT Modular" in the search field, click on install and activate.
+ZMPlugin is recommended but not required to use Modular.
 
-= How to install this Theme via Theme-Zip-File =
+= Can I use Modular without ZMPlugin? =
 
-Go to Dashboard >> Appearance >> Themes >> Add New >> Upload Theme.
-Select the previously downloaded Theme-Zip-File and click "Install now".
+Yes. Modular can be used as a standalone WordPress theme.
+
+ZMPlugin adds additional configuration options and theme-specific functionality, but the theme itself does not require the plugin to operate.
+
+= How do I install Modular from WordPress? =
+
+Go to Appearance > Themes > Add New in your WordPress Dashboard.
+
+Search for "Modular", click "Install" and then activate the theme.
+
+= How do I install Modular from a ZIP file? =
+
+Go to Appearance > Themes > Add New > Upload Theme in your WordPress Dashboard.
+
+Select the theme ZIP file, click "Install Now" and then activate the theme.
 
 == Changelog ==
+
+= 2.1.3 =
+* Update: tested up to WP 7.1
+* Update: Translation files
 
 = 2.1.2 =
 * Fix: ZMTheme was not up to date

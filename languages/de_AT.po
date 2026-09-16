@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ZMT Modular\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/zmt-modular\n"
-"POT-Creation-Date: 2025-09-11 16:55+0200\n"
-"PO-Revision-Date: 2025-09-11 16:55+0200\n"
+"POT-Creation-Date: 2026-09-16T13:14:04+00:00\n"
+"PO-Revision-Date: 2026-09-16 15:15+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: de_AT\n"
@@ -11,12 +11,50 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.5\n"
+"X-Generator: Poedit 3.9\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-KeywordsList: __\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: .git\n"
 "X-Poedit-SearchPathExcluded-1: app\n"
+
+#. Theme Name of the theme
+#: style.css config/theme/theme.php:27
+msgid "Modular"
+msgstr "Modular"
+
+#. Theme URI of the theme
+#: style.css
+msgid "https://zuestmedia.com/modular/"
+msgstr "https://zuestmedia.ch/modular/"
+
+#. Description of the theme
+#: style.css
+msgid ""
+"Modular is a lightweight and flexible WordPress theme by ZuestMedia with a "
+"modular layout system and customizable theme structure. It combines the "
+"WordPress block editor with a proven classic theme architecture and provides "
+"flexible options for building different page, post and archive layouts. "
+"Additional theme settings, block templates and starter designs are available "
+"through the free ZMPlugin companion plugin."
+msgstr ""
+"Modular ist ein leichtgewichtiges und flexibles WordPress-Theme von "
+"ZuestMedia mit einem modularen Layout-System und einer anpassbaren Theme-"
+"Struktur. Es kombiniert den WordPress-Block-Editor mit einer bewährten "
+"klassischen Theme-Architektur und bietet flexible Möglichkeiten zur "
+"Erstellung verschiedener Layouts für Seiten, Beiträge und Archive. "
+"Zusätzliche Theme-Einstellungen, Blockvorlagen und Starter-Designs sind über "
+"das kostenlose Begleit-Plugin ZMPlugin verfügbar."
+
+#. Author of the theme
+#: style.css
+msgid "ZuestMedia"
+msgstr "ZuestMedia"
+
+#. Author URI of the theme
+#: style.css
+msgid "https://zuestmedia.com/"
+msgstr "https://zuestmedia.ch/"
 
 #: config/modules/configSectionNewHTML.php:11
 msgid "Powered by"
@@ -207,12 +245,9 @@ msgstr "Blog"
 msgid "Search Results for \"%s\""
 msgstr "Suchergebnisse für \"%s\""
 
-#: config/theme/theme.php:27
-msgid "Modular"
-msgstr "Modular"
-
-#~ msgid "https://zuestmedia.com/modular/"
-#~ msgstr "https://zuestmedia.ch/modular/"
+#. Template Name of the theme
+msgid "Custom Template - Example"
+msgstr "Benutzerdefinierte Vorlage - Beispiel"
 
 #~ msgid ""
 #~ "The Modular Theme is a lightweight, fast and fully customizable "
@@ -240,17 +275,8 @@ msgstr "Modular"
 #~ "Theme können Sie im Header-, Center- oder Footer-Bereich so viele "
 #~ "Sektionen erstellen, wie Sie benötigen, und diese nach Belieben anordnen."
 
-#~ msgid "ZuestMedia"
-#~ msgstr "ZuestMedia"
-
-#~ msgid "https://zuestmedia.com/"
-#~ msgstr "https://zuestmedia.ch/"
-
 #~ msgid "ZMT Modular"
 #~ msgstr "ZMT Modular (Deutsch)"
-
-#~ msgid "Custom Template - Example"
-#~ msgstr "Benutzerdefinierte Vorlage - Beispiel"
 
 #, php-format
 #~ msgid ""
